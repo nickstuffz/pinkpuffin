@@ -1,11 +1,44 @@
 ---
 import { Image } from "astro:assets";
-import logo from "../assets/logo.svg";
+// import Hamburger from "../components/Hamburger.astro";
+// import Menu from "../components/Menu.astro";
+// import Social from "../components/Social.astro";
+import logoIcon from "../assets/logoIcon.svg";
+import logoText from "../assets/logoText.svg";
+import bicycleText from "../assets/bicycleText.svg";
 ---
 
-<header class="bg-black">
-  <div class="h-20">
-    <Image src={logo} alt="Pink Puffin Logo" class="w-16" />
+<header class="border-b-2 border-yellow-500 bg-black">
+  <div class="flex justify-between">
+    <div class="flex h-20 gap-3">
+      <Image
+        src={logoIcon}
+        alt="Pink Puffin Icon"
+        class="ml-2.5 mt-2.5 h-14 w-14"
+      />
+      <div class="flex w-32 flex-none flex-col justify-center gap-3">
+        <Image src={logoText} alt="Pink Puffin" class="w-full" />
+        <Image src={bicycleText} alt="bicycles" class="w-full pl-0.5" />
+      </div>
+    </div>
+    <div class="absolute right-0 flex h-svh flex-col items-end">
+      <button
+        id="hamburger"
+        class="my-5 mr-4 h-10 w-10 border border-red-500 text-3xl font-bold text-white"
+        >=</button
+      >
+      <nav
+        id="menu"
+        class="flex w-44 flex-1 flex-col items-end bg-black/90 text-xl font-light text-white"
+      >
+        <a class="flex flex-1 items-center" href="/custom"> Custom Bikes</a>
+        <a class="flex flex-1 items-center" href="/brands/">Bike Brands</a>
+        <a class="flex flex-1 items-center" href="/kidsbikes/">Kids' Bikes</a>
+        <a class="flex flex-1 items-center" href="/fitting/">Bike Fitting</a>
+        <a class="flex flex-1 items-center" href="/services/">Services</a>
+        <a class="flex flex-1 items-center" href="/about/">About</a>
+        <a class="flex flex-1 items-center" href="/contact/">Contact</a>
+      </nav>
+    </div>
   </div>
-  <menu> </menu>
 </header>

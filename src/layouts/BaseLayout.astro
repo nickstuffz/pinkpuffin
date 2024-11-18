@@ -13,11 +13,14 @@ const { pageTitle } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{pageTitle}</title>
   </head>
-  <body class="flex min-h-svh flex-col">
+  <body class="flex min-h-svh min-w-72 flex-col">
     <Header />
     <main class="flex-1 bg-white">
       <slot />
     </main>
     <Footer />
+    <script>
+      import "../scripts/hamburger.js";
+    </script>
   </body>
 </html>
