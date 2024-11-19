@@ -8,8 +8,8 @@ import logoText from "../assets/logoText.svg";
 import bicycleText from "../assets/bicycleText.svg";
 ---
 
-<header class="flex border-b-2 border-yellow-500 bg-black">
-  <a class="flex h-20 gap-3" href="/">
+<header class="flex h-20 border-b-2 border-yellow-500 bg-black">
+  <a class="flex gap-3" href="/">
     <Image
       src={logoIcon}
       alt="Pink Puffin Icon"
@@ -20,11 +20,10 @@ import bicycleText from "../assets/bicycleText.svg";
       <Image src={bicycleText} alt="bicycles" class="w-full pl-0.5" />
     </div>
   </a>
-  <div class="absolute right-0 flex max-h-svh flex-col items-end">
+  <div class="absolute right-0 flex h-full flex-col items-end">
     <button
       id="hamburger"
-      class="m-5 h-10 w-10 border border-dotted border-white text-3xl font-bold text-white"
-      >=</button
+      class="m-5 h-10 w-10 flex-none text-3xl font-bold text-white">=</button
     >
     <div
       id="menu-container"
@@ -35,26 +34,35 @@ import bicycleText from "../assets/bicycleText.svg";
         id="menu"
         class="w-52 flex-col items-end bg-black/90 text-xl font-light text-white"
       >
-        <a class="menu-link flex flex-1 items-center pr-4" href="/custom">
+        <a
+          class="menu-link flex flex-1 items-center border-b border-black pr-4"
+          href="/custom"
+        >
           Custom Bikes</a
         >
-        <a class="menu-link flex flex-1 items-center pr-4" href="/brands/"
-          >Bike Brands</a
+        <a
+          class="menu-link flex flex-1 items-center border-b border-black pr-4"
+          href="/brands/">Bike Brands</a
         >
-        <a class="menu-link flex flex-1 items-center pr-4" href="/kidsbikes/"
-          >Kids' Bikes</a
+        <a
+          class="menu-link flex flex-1 items-center border-b border-black pr-4"
+          href="/kidsbikes/">Kids' Bikes</a
         >
-        <a class="menu-link flex flex-1 items-center pr-4" href="/fitting/"
-          >Bike Fitting</a
+        <a
+          class="menu-link flex flex-1 items-center border-b border-black pr-4"
+          href="/fitting/">Bike Fitting</a
         >
-        <a class="menu-link flex flex-1 items-center pr-4" href="/services/"
-          >Services</a
+        <a
+          class="menu-link flex flex-1 items-center border-b border-black pr-4"
+          href="/services/">Services</a
         >
-        <a class="menu-link flex flex-1 items-center pr-4" href="/about/"
-          >About</a
+        <a
+          class="menu-link flex flex-1 items-center border-b border-black pr-4"
+          href="/about/">About</a
         >
-        <a class="menu-link flex flex-1 items-center pr-4" href="/contact/"
-          >Contact</a
+        <a
+          class="menu-link flex flex-1 items-center border-b border-black pr-4"
+          href="/contact/">Contact</a
         >
         <!-- <Social /> -->
       </nav>

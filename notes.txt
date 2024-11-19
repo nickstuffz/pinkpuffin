@@ -1,0 +1,6 @@
+Next: 
+- Clean up Header CSS
+- Header CSS breakpoints
+
+Eventually:
+- Refactor menu nav
