@@ -4,13 +4,15 @@ import { Image } from "astro:assets";
 // import Menu from "../components/Menu.astro";
 // import Social from "../components/Social.astro";
 import logoIcon from "../assets/logoIcon.svg";
-import logoText from "../assets/logoText.svg";
-import bicycleText from "../assets/bicycleText.svg";
+import ppText from "../assets/ppText.svg";
+import bicyclesText from "../assets/bicyclesText.svg";
 import socialFacebook from "../assets/socialFacebook.svg";
 import socialInstagram from "../assets/socialInstagram.svg";
 ---
 
+<!-- Header -->
 <header class="flex h-20 border-b-2 border-yellow-500 bg-black">
+  <!-- Logo -->
   <a class="flex gap-3" href="/">
     <Image
       src={logoIcon}
@@ -18,11 +20,13 @@ import socialInstagram from "../assets/socialInstagram.svg";
       class="ml-2.5 mt-2.5 h-14 w-14"
     />
     <div class="flex w-32 flex-none flex-col justify-center gap-3">
-      <Image src={logoText} alt="Pink Puffin" class="w-full" />
-      <Image src={bicycleText} alt="bicycles" class="w-full pl-0.5" />
+      <Image src={ppText} alt="Pink Puffin" class="w-full" />
+      <Image src={bicyclesText} alt="bicycles" class="w-full pl-0.5" />
     </div>
   </a>
+  <!-- Sidebar -->
   <div class="absolute right-0 flex max-h-svh flex-col items-end">
+    <!-- Hamburger -->
     <button
       id="hamburger"
       class="flex h-20 w-20 flex-none flex-col justify-center gap-2 border-l border-white/10 p-5"
@@ -38,6 +42,7 @@ import socialInstagram from "../assets/socialInstagram.svg";
         id="hamburger-bot"
         class="h-1 w-full rounded-md bg-white transition-transform"></span>
     </button>
+    <!-- Menu -->
     <div
       id="menu-container"
       class="delay-50 flex grow opacity-0 transition-opacity"
@@ -78,11 +83,11 @@ import socialInstagram from "../assets/socialInstagram.svg";
           href="/contact/">Contact</a
         >
         <!-- <Social /> -->
-        <nav class="flex w-full flex-1 items-center justify-end gap-5 pr-3">
+        <nav class="flex flex-1 items-center gap-5 pr-4">
           <a
             href="https://www.facebook.com/p/Pink-Puffin-Bicycles-100089665568808/"
           >
-            <Image src={socialFacebook} alt="Facebook icon" class="h-7 w-7" />
+            <Image src={socialFacebook} alt="Facebook icon" class="h-8 w-8" />
           </a>
           <a href="https://www.instagram.com/pinkpuffinbicycles/">
             <Image src={socialInstagram} alt="Instagram icon" class="h-8 w-8" />

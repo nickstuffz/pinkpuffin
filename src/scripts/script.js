@@ -28,6 +28,7 @@ document.querySelector("#hamburger").addEventListener("click", () => {
 });
 
 // testing toggle
+
 const menu = document.querySelector("#menu");
 const menuContainer = document.querySelector("#menu-container");
 const hamburgerTop = document.querySelector("#hamburger-top");
