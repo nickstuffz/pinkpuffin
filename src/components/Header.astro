@@ -20,11 +20,33 @@ import bicycleText from "../assets/bicycleText.svg";
       <Image src={bicycleText} alt="bicycles" class="w-full pl-0.5" />
     </div>
   </a>
-  <div class="absolute right-0 flex h-full flex-col items-end">
+  <div class="absolute right-0 flex max-h-svh flex-col items-end">
     <button
       id="hamburger"
-      class="m-5 h-10 w-10 flex-none text-3xl font-bold text-white">=</button
+      class="flex h-20 w-20 flex-none flex-col justify-center gap-2 border-l border-white/10 p-5"
     >
+      <!-- open -->
+      <!-- <span
+        class="h-1 w-full translate-y-3 rotate-45 rounded-md bg-white transition-transform"
+      ></span>
+      <span class="h-1 w-4/5 rounded-md bg-white opacity-0 transition-opacity"
+      ></span>
+      <span
+        class="h-1 w-full -translate-y-3 -rotate-45 rounded-md bg-white transition-transform"
+      ></span> -->
+
+      <!-- closed -->
+      <span
+        id="hamburger-top"
+        class="h-1 w-full rounded-md bg-white transition-transform"></span>
+      <span
+        id="hamburger-mid"
+        class="h-1 w-4/5 rounded-md bg-white opacity-100 transition-opacity"
+      ></span>
+      <span
+        id="hamburger-bot"
+        class="h-1 w-full rounded-md bg-white transition-transform"></span>
+    </button>
     <div
       id="menu-container"
       class="delay-50 flex grow opacity-0 transition-opacity"
@@ -35,33 +57,33 @@ import bicycleText from "../assets/bicycleText.svg";
         class="w-52 flex-col items-end bg-black/90 text-xl font-light text-white"
       >
         <a
-          class="menu-link flex flex-1 items-center border-b border-black pr-4"
+          class="menu-link flex flex-1 items-center border-b border-black/30 pr-4"
           href="/custom"
         >
           Custom Bikes</a
         >
         <a
-          class="menu-link flex flex-1 items-center border-b border-black pr-4"
+          class="menu-link flex flex-1 items-center border-b border-black/30 pr-4"
           href="/brands/">Bike Brands</a
         >
         <a
-          class="menu-link flex flex-1 items-center border-b border-black pr-4"
+          class="menu-link flex flex-1 items-center border-b border-black/30 pr-4"
           href="/kidsbikes/">Kids' Bikes</a
         >
         <a
-          class="menu-link flex flex-1 items-center border-b border-black pr-4"
+          class="menu-link flex flex-1 items-center border-b border-black/30 pr-4"
           href="/fitting/">Bike Fitting</a
         >
         <a
-          class="menu-link flex flex-1 items-center border-b border-black pr-4"
+          class="menu-link flex flex-1 items-center border-b border-black/30 pr-4"
           href="/services/">Services</a
         >
         <a
-          class="menu-link flex flex-1 items-center border-b border-black pr-4"
+          class="menu-link flex flex-1 items-center border-b border-black/30 pr-4"
           href="/about/">About</a
         >
         <a
-          class="menu-link flex flex-1 items-center border-b border-black pr-4"
+          class="menu-link flex flex-1 items-center border-b border-black/30 pr-4"
           href="/contact/">Contact</a
         >
         <!-- <Social /> -->
