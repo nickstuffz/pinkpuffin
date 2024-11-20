@@ -1,9 +1,9 @@
 Next: 
-- Clean up Header CSS
 - Header CSS breakpoints
 
 Eventually:
 - Refactor menu nav
+- Make an onclick to fade modal in and out
 
 
 About:
