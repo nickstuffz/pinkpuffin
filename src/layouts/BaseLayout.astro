@@ -15,12 +15,10 @@ const { pageTitle } = Astro.props;
   </head>
   <body class="m-0 flex h-full w-full flex-col p-0">
     <Header />
-    <main class="grow bg-white">
+    <main class="grow">
       <slot />
     </main>
     <Footer />
-    <script>
-      import "../scripts/script.js";
-    </script>
+    <script src="../scripts/hamburgerScript.js"></script>
   </body>
 </html>

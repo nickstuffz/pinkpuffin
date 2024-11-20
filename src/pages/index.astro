@@ -10,7 +10,8 @@ const pageTitle = "PinkPuffinBicycles";
 <BaseLayout pageTitle={pageTitle}>
   <div class="relative flex items-center justify-center">
     <div
-      class="absolute z-10 mt-1 flex aspect-[5/4] w-5/6 flex-col items-center gap-5 bg-black/60 p-4"
+      id="modal"
+      class="absolute z-10 mt-1 flex aspect-[5/4] w-5/6 flex-col items-center gap-5 bg-black/60 p-4 transition-opacity duration-500 hover:opacity-0"
     >
       <Image
         src={ppText}

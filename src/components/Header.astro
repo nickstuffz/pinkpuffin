@@ -1,8 +1,5 @@
 ---
 import { Image } from "astro:assets";
-// import Hamburger from "../components/Hamburger.astro";
-// import Menu from "../components/Menu.astro";
-// import Social from "../components/Social.astro";
 import logoIcon from "../assets/logoIcon.svg";
 import ppText from "../assets/ppText.svg";
 import bicyclesText from "../assets/bicyclesText.svg";
@@ -13,30 +10,34 @@ import socialInstagram from "../assets/socialInstagram.svg";
 <!-- Header -->
 <header class="flex h-20 flex-none border-b-2 border-yellow-500 bg-black">
   <!-- Logo -->
-  <a class="flex gap-3" href="/">
+  <a class="flex gap-3.5" href="/">
     <Image
       src={logoIcon}
       loading="eager"
       alt="Pink Puffin icon"
       class="ml-2.5 mt-2.5 h-14 w-14"
     />
-    <div class="flex w-32 flex-none flex-col justify-center gap-3">
+    <div
+      class="flex w-32 flex-none flex-col justify-center gap-3 sm:w-80 sm:flex-row sm:justify-end sm:gap-5"
+    >
       <Image
         src={ppText}
         alt="Pink Puffin text"
         loading="eager"
-        class="w-5/6"
+        class="w-5/6 min-w-0 sm:w-1/2 sm:flex-1"
       />
       <Image
         src={bicyclesText}
         alt="bicycles text"
         loading="eager"
-        class="w-full pl-0.5"
+        class="w-full min-w-0 pl-px sm:w-1/2 sm:flex-1 sm:pl-0 sm:pt-1"
       />
     </div>
   </a>
   <!-- Sidebar -->
-  <div class="absolute right-0 z-20 flex max-h-svh flex-col items-end">
+  <div
+    class="absolute right-0 z-20 flex max-h-svh flex-col items-end sm:hidden"
+  >
     <!-- Hamburger -->
     <button
       id="hamburger"
