@@ -4,8 +4,9 @@ document.querySelector("#hamburger").addEventListener("click", () => {
   const hamburgerTop = document.querySelector("#hamburger-top");
   const hamburgerMid = document.querySelector("#hamburger-mid");
   const hamburgerBot = document.querySelector("#hamburger-bot");
-  if (menu.style.display === "none") {
-    menu.style.display = "flex";
+  if (menu.classList.contains("hidden")) {
+    menu.classList.remove("hidden");
+    menu.classList.add("flex");
 
     menuContainer.classList.remove("opacity-0");
     menuContainer.classList.add("h-svh", "opacity-100");
@@ -15,7 +16,8 @@ document.querySelector("#hamburger").addEventListener("click", () => {
     hamburgerMid.classList.add("opacity-0");
     hamburgerBot.classList.add("-translate-y-3", "-rotate-45");
   } else {
-    menu.style.display = "none";
+    menu.classList.remove("flex");
+    menu.classList.add("hidden");
 
     menuContainer.classList.remove("h-svh", "opacity-100");
     menuContainer.classList.add("opacity-0");

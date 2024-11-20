@@ -10,7 +10,11 @@ const { images } = Astro.props;
       <slot />
     </section>
     <section class="flex flex-col gap-2 bg-black p-4">
-      {images.map((element) => <Image src={element.image} alt={element.alt} />)}
+      {
+        images.map((element) => (
+          <Image src={element.image} alt={element.alt} class="min-w-full" />
+        ))
+      }
     </section>
   </div>
   <div class="h-4 flex-none bg-gradient-to-r from-black to-[#F8D1D1]"></div>

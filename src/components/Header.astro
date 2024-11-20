@@ -8,17 +8,19 @@ import socialInstagram from "../assets/socialInstagram.svg";
 ---
 
 <!-- Header -->
-<header class="flex h-20 flex-none border-b-2 border-yellow-500 bg-black">
+<header
+  class="box-content flex h-20 flex-none border-b-2 border-yellow-500 bg-black md:h-auto md:flex-col"
+>
   <!-- Logo -->
-  <a class="flex gap-3.5" href="/">
+  <a class="flex items-center gap-3.5 md:h-20" href="/">
     <Image
       src={logoIcon}
       loading="eager"
       alt="Pink Puffin icon"
-      class="ml-2.5 mt-2.5 h-14 w-14"
+      class="ml-2.5 h-14 w-14"
     />
     <div
-      class="flex w-32 flex-none flex-col justify-center gap-3 sm:w-80 sm:flex-row sm:justify-end sm:gap-5"
+      class="flex w-32 flex-none flex-col justify-center gap-3 sm:w-80 sm:flex-row sm:justify-end sm:gap-4"
     >
       <Image
         src={ppText}
@@ -36,12 +38,12 @@ import socialInstagram from "../assets/socialInstagram.svg";
   </a>
   <!-- Sidebar -->
   <div
-    class="absolute right-0 z-20 flex max-h-svh flex-col items-end sm:hidden"
+    class="absolute right-0 z-20 flex max-h-svh flex-col items-end md:static md:h-8 md:bg-red-500"
   >
     <!-- Hamburger -->
     <button
       id="hamburger"
-      class="flex h-20 w-20 flex-none flex-col justify-center gap-2 border-l border-white/10 p-5"
+      class="flex h-20 w-20 flex-none flex-col justify-center gap-2 border-l border-white/10 p-5 md:hidden"
     >
       <span
         id="hamburger-top"
@@ -60,9 +62,8 @@ import socialInstagram from "../assets/socialInstagram.svg";
       class="delay-50 flex grow opacity-0 transition-opacity"
     >
       <nav
-        style="display:none"
         id="menu"
-        class="divid-y w-52 flex-col items-end divide-y divide-solid divide-black/30 rounded-bl-2xl bg-black/90 pb-5 text-xl font-extralight text-white"
+        class="hidden w-52 flex-col items-end divide-y divide-solid divide-black/30 rounded-bl-2xl bg-black/90 pb-5 text-xl font-extralight text-white"
       >
         <a class="menu-link flex flex-1 items-center pr-4" href="/custom">
           Custom Bikes</a
