@@ -1,8 +1,5 @@
-Next: 
-- Header CSS breakpoints
-
-Eventually:
-- Refactor menu nav
+Todo:
+- Refactor to an extra layout (to include Contact in Columns Layout)
 - Make an onclick to fade modal in and out
 
 
