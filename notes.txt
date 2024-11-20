@@ -4,3 +4,9 @@ Next:
 
 Eventually:
 - Refactor menu nav
+
+
+About:
+
+I rebuilt this website from scratch using Astro. My friend's bike shop was running on Wix and way too slow.
+Custom tailored SVGs, resized photos. Hero photo is shot by me.

@@ -1,8 +1,12 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-const pageTitle = "Services";
+import ColumnLayout from "../layouts/ColumnLayout.astro";
+import { Content, frontmatter } from "../markdown/services.md";
+import bikeFitting from "../assets/bikeFitting.png";
 ---
 
-<BaseLayout pageTitle={pageTitle}>
-  <p>Services</p>
+<BaseLayout pageTitle={frontmatter.title}>
+  <ColumnLayout image={bikeFitting}>
+    <Content />
+  </ColumnLayout>
 </BaseLayout>

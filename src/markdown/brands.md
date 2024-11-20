@@ -1,10 +1,17 @@
 ---
 title: "Bike Brands"
-image:
 ---
 
-What is a custom bike? In part, it is the experience of choosing every piece of your bike—the design, the frame, the paint, and your dream parts. It is a memorable journey, a representation of you in bike form, and something to be savored and celebrated.
+# Sage Titanium
 
-The feel of riding a bike made just for you is an experience that is almost impossible to replicate on a stock bike. This bike is measured to fit you perfectly. Every tube is made for your geometry and riding style, and then painted to match your dreams. We are all unique and individual; if you can, have your bike be unique to fit you. It will change your riding experience in ways big and small.
+Pink Puffin welcomes Sage Titanium Bicycles! Sage produces the highest quality hand made titanium frames and parts, all in Beaverton, Oregon. Specializing in custom, race stiff frames to cover all disciplines and types of riding has won Sage bikes multiple awards. It's not just the performance, whether it’s raw or Cerakote, Sage puts out a stunning looking finish on their frames to ice the cake on already beautiful welds.
 
-Seeing and riding your custom bike, the bike you helped create from your dreams, is truly a memorable experience. Let me help you design that bike and we will celebrate it together.
+Stop into Pink Puffin Bicycles to inquire more about making one of these beautiful titanium bikes a favorite in your stable!
+
+# FiftyOne Bicycles
+
+FiftyOne, based in Dublin, Ireland, has changed the world of custom carbon bicycles to the point that most everyone is struggling to catch up. They have incorporated an industry revolutionizing joint welding technique with a completely custom buying process. They work with you one-on-one to design a bike to your exact physical geometry and design dreams, resulting in your unique bicycle that will never be copied or re-made. If you are looking for one of the best feeling, best looking, and overall best companies delivering world class carbon bicycles and customer service, then look no further than FiftyOne Bicycles.
+
+# Colnago
+
+Text coming soon...

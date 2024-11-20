@@ -1,10 +1,12 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-const pageTitle = "Custom Bikes";
-
-const pageCopy = "";
+import ColumnLayout from "../layouts/ColumnLayout.astro";
+import { Content, frontmatter } from "../markdown/custom.md";
+import image from "../assets/bikeMeasure.webp";
 ---
 
-<BaseLayout pageTitle={pageTitle}>
-  <p>Custom Bikes</p>
+<BaseLayout pageTitle={frontmatter.title}>
+  <ColumnLayout image={image}>
+    <Content />
+  </ColumnLayout>
 </BaseLayout>
