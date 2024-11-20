@@ -16,12 +16,23 @@ import socialInstagram from "../assets/socialInstagram.svg";
   <a class="flex gap-3" href="/">
     <Image
       src={logoIcon}
+      loading="eager"
       alt="Pink Puffin icon"
       class="ml-2.5 mt-2.5 h-14 w-14"
     />
     <div class="flex w-32 flex-none flex-col justify-center gap-3">
-      <Image src={ppText} alt="Pink Puffin text" class="w-5/6" />
-      <Image src={bicyclesText} alt="bicycles text" class="w-full pl-0.5" />
+      <Image
+        src={ppText}
+        alt="Pink Puffin text"
+        loading="eager"
+        class="w-5/6"
+      />
+      <Image
+        src={bicyclesText}
+        alt="bicycles text"
+        loading="eager"
+        class="w-full pl-0.5"
+      />
     </div>
   </a>
   <!-- Sidebar -->

@@ -12,8 +12,18 @@ const pageTitle = "PinkPuffinBicycles";
     <div
       class="absolute z-10 mt-1 flex aspect-[5/4] w-5/6 flex-col items-center gap-5 bg-black/60 p-4"
     >
-      <Image src={ppText} alt="Pink Puffin text" class="w-3/4 flex-none" />
-      <Image src={bicyclesText} alt="bicycles text" class="w-3/5 flex-none" />
+      <Image
+        src={ppText}
+        alt="Pink Puffin text"
+        loading="eager"
+        class="w-3/4 flex-none"
+      />
+      <Image
+        src={bicyclesText}
+        alt="bicycles text"
+        loading="eager"
+        class="w-3/5 flex-none"
+      />
       <div
         class="my-1 flex grow flex-col justify-between text-center text-[3vw] font-thin text-white"
       >
@@ -25,6 +35,11 @@ const pageTitle = "PinkPuffinBicycles";
       </div>
     </div>
 
-    <Image src={shopBike} alt="Pink Puffin shop bicycle" class="relative" />
+    <Image
+      src={shopBike}
+      alt="Pink Puffin shop bicycle"
+      loading="eager"
+      class="relative"
+    />
   </div>
 </BaseLayout>
