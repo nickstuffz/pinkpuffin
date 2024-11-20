@@ -2,11 +2,13 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ColumnLayout from "../layouts/ColumnLayout.astro";
 import { Content, frontmatter } from "../markdown/services.md";
-import bikeFitting from "../assets/bikeFitting.png";
+import image1 from "../assets/drivetrain.webp";
+
+const images = [{ image: image1, alt: "bicycle drivetrain" }];
 ---
 
 <BaseLayout pageTitle={frontmatter.title}>
-  <ColumnLayout image={bikeFitting}>
+  <ColumnLayout images={images}>
     <Content />
   </ColumnLayout>
 </BaseLayout>

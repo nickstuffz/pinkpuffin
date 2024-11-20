@@ -1,6 +1,6 @@
 ---
 import { Image } from "astro:assets";
-const { image } = Astro.props;
+const { images } = Astro.props;
 ---
 
 <div class="flex flex-col">
@@ -9,8 +9,8 @@ const { image } = Astro.props;
     <section class="flex flex-col gap-4 bg-[#F8D1D1] p-4">
       <slot />
     </section>
-    <section class="flex flex-col bg-black p-4">
-      <Image src={image} alt="Bike fit measurements" />
+    <section class="flex flex-col gap-2 bg-black p-4">
+      {images.map((element) => <Image src={element.image} alt={element.alt} />)}
     </section>
   </div>
   <div class="h-4 flex-none bg-gradient-to-r from-black to-[#F8D1D1]"></div>

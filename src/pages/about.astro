@@ -2,11 +2,17 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ColumnLayout from "../layouts/ColumnLayout.astro";
 import { Content, frontmatter } from "../markdown/about.md";
-import bikeFitting from "../assets/bikeFitting.png";
+import image1 from "../assets/philPAS.webp";
+import image2 from "../assets/philFam.webp";
+
+const images = [
+  { image: image1, alt: "Phil at Pas Normal Studios" },
+  { image: image2, alt: "the Phil family" },
+];
 ---
 
 <BaseLayout pageTitle={frontmatter.title}>
-  <ColumnLayout image={bikeFitting}>
+  <ColumnLayout images={images}>
     <Content />
   </ColumnLayout>
 </BaseLayout>

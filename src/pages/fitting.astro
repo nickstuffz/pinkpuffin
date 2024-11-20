@@ -2,11 +2,17 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ColumnLayout from "../layouts/ColumnLayout.astro";
 import { Content, frontmatter } from "../markdown/fitting.md";
-import bikeFitting from "../assets/bikeFitting.png";
+import image1 from "../assets/paragonFitStudioLogo.webp";
+import image2 from "../assets/vitruvianMan.webp";
+
+const images = [
+  { image: image1, alt: "Paragon Fit Studio logo" },
+  { image: image2, alt: "vitruvian man" },
+];
 ---
 
 <BaseLayout pageTitle={frontmatter.title}>
-  <ColumnLayout image={bikeFitting}>
+  <ColumnLayout images={images}>
     <Content />
   </ColumnLayout>
 </BaseLayout>

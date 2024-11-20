@@ -2,11 +2,17 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ColumnLayout from "../layouts/ColumnLayout.astro";
 import { Content, frontmatter } from "../markdown/kidsbikes.md";
-import bikeFitting from "../assets/bikeFitting.png";
+import image1 from "../assets/earlyRiderLogo.webp";
+import image2 from "../assets/earlyRiderBicycles.webp";
+
+const images = [
+  { image: image1, alt: "EarlyRider logo" },
+  { image: image2, alt: "EarlyRider bicycles" },
+];
 ---
 
 <BaseLayout pageTitle={frontmatter.title}>
-  <ColumnLayout image={bikeFitting}>
+  <ColumnLayout images={images}>
     <Content />
   </ColumnLayout>
 </BaseLayout>
