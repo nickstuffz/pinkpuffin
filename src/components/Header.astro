@@ -9,10 +9,13 @@ import socialInstagram from "../assets/socialInstagram.svg";
 
 <!-- Header -->
 <header
-  class="box-content flex h-20 flex-none border-b-2 border-yellow-500 bg-black md:h-auto md:flex-col"
+  class="box-content flex h-20 flex-none border-b-2 border-yellow-500 bg-black md:h-28 md:flex-col"
 >
   <!-- Logo -->
-  <a class="flex items-center gap-3.5 md:h-20" href="/">
+  <a
+    class="flex flex-none items-center gap-3.5 sm:pl-1 md:h-20 lg:pl-3"
+    href="/"
+  >
     <Image
       src={logoIcon}
       loading="eager"
@@ -38,7 +41,7 @@ import socialInstagram from "../assets/socialInstagram.svg";
   </a>
   <!-- Sidebar -->
   <div
-    class="absolute right-0 z-20 flex max-h-svh flex-col items-end md:static md:h-8 md:bg-red-500"
+    class="absolute right-0 z-20 flex max-h-svh flex-col items-end md:static md:grow"
   >
     <!-- Hamburger -->
     <button
@@ -47,48 +50,59 @@ import socialInstagram from "../assets/socialInstagram.svg";
     >
       <span
         id="hamburger-top"
-        class="h-1 w-full rounded-md bg-white transition-transform"></span>
+        class="h-1 w-full rounded-sm bg-white transition-transform"></span>
       <span
         id="hamburger-mid"
-        class="h-1 w-4/5 rounded-md bg-white opacity-100 transition-opacity"
+        class="h-1 w-4/5 rounded-sm bg-white opacity-100 transition-opacity"
       ></span>
       <span
         id="hamburger-bot"
-        class="h-1 w-full rounded-md bg-white transition-transform"></span>
+        class="h-1 w-full rounded-sm bg-white transition-transform"></span>
     </button>
     <!-- Menu -->
     <div
       id="menu-container"
-      class="delay-50 flex grow opacity-0 transition-opacity"
+      class="delay-50 flex grow opacity-0 transition-opacity md:h-auto md:w-full md:opacity-100"
     >
       <nav
         id="menu"
-        class="hidden w-52 flex-col items-end divide-y divide-solid divide-black/30 rounded-bl-2xl bg-black/90 pb-5 text-xl font-extralight text-white"
+        class="hidden w-52 flex-col items-end divide-y divide-solid divide-black/30 rounded-bl-2xl bg-black/90 pb-5 text-xl font-extralight tracking-widest text-white md:flex md:w-full md:flex-row md:text-nowrap md:pb-0 md:text-xs lg:text-sm"
       >
-        <a class="menu-link flex flex-1 items-center pr-4" href="/custom">
+        <a
+          class="menu-link flex flex-1 items-center pr-4 hover:text-[#EC6FA7] md:justify-center md:pb-px md:pr-0"
+          href="/custom"
+        >
           Custom Bikes</a
         >
-        <a class="menu-link flex flex-1 items-center pr-4" href="/brands/"
-          >Bike Brands</a
+        <a
+          class="menu-link flex flex-1 items-center pr-4 md:justify-center md:pb-px md:pr-0"
+          href="/brands/">Bike Brands</a
         >
-        <a class="menu-link flex flex-1 items-center pr-4" href="/fitting/"
-          >Bike Fitting</a
+        <a
+          class="menu-link flex flex-1 items-center pr-4 md:justify-center md:pb-px md:pr-0"
+          href="/fitting/">Bike Fitting</a
         >
-        <a class="menu-link flex flex-1 items-center pr-4" href="/kidsbikes/"
-          >Kids' Bikes</a
+        <a
+          class="menu-link flex flex-1 items-center pr-4 md:justify-center md:pb-px md:pr-0"
+          href="/kidsbikes/">Kids' Bikes</a
         >
 
-        <a class="menu-link flex flex-1 items-center pr-4" href="/services/"
-          >Services</a
+        <a
+          class="menu-link flex flex-1 items-center pr-4 md:justify-center md:pb-px md:pr-0"
+          href="/services/">Services</a
         >
-        <a class="menu-link flex flex-1 items-center pr-4" href="/about/"
-          >About</a
+        <a
+          class="menu-link flex flex-1 items-center pr-4 md:justify-center md:pb-px md:pr-0"
+          href="/about/">About</a
         >
-        <a class="menu-link flex flex-1 items-center pr-4" href="/contact/"
-          >Contact</a
+        <a
+          class="menu-link flex flex-1 items-center pr-4 md:justify-center md:pb-px md:pr-0"
+          href="/contact/">Contact</a
         >
         <!-- <Social /> -->
-        <nav class="flex flex-1 items-center gap-5 pr-4">
+        <nav
+          class="flex flex-1 items-center gap-5 pr-4 md:absolute md:right-5 md:top-7"
+        >
           <a
             href="https://www.facebook.com/p/Pink-Puffin-Bicycles-100089665568808/"
             target="_blank"
