@@ -4,71 +4,79 @@ const pageTitle = "Contact";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <div class="flex flex-col">
+  <div class="flex w-full grow flex-col">
     <div class="h-4 flex-none bg-gradient-to-r from-black to-[#F8D1D1]"></div>
-    <div class="grid grid-cols-1">
-      <section class="flex flex-col gap-4 bg-[#F8D1D1] p-4">
-        <h1>Contact</h1>
-        <div class="flex flex-col">
-          <div class="flex justify-between">
-            <p>Owner:</p><p>Phillip Shain</p>
+    <div class="grid grow grid-cols-1 sm:grid-cols-2">
+      <section
+        class="flex flex-col items-center bg-[#F8D1D1] p-4 md:p-6 lg:p-8 xl:p-10 2xl:p-12"
+      >
+        <div
+          class="flex w-full max-w-[570px] flex-col gap-4 text-nowrap text-base lg:gap-6 lg:text-lg xl:text-xl"
+        >
+          <h1>Contact</h1>
+          <div class="flex flex-col">
+            <div class="flex justify-between">
+              <p>Owner:</p><p>Phillip Shain</p>
+            </div>
+            <div class="flex justify-between">
+              <p>Email:</p><a
+                href="mailto: pinkpuffinbicycles@gmail.com"
+                target="_blank"
+                class="underline">pinkpuffinbicycles@gmail.com</a
+              >
+            </div>
+            <div class="flex justify-between">
+              <p>Phone:</p><a href="tel:4159373553" target="_blank"
+                >415-937-3553</a
+              >
+            </div>
+            <div class="flex justify-between">
+              <p>Address:</p><p>3484 Sacramento Street</p>
+            </div>
+            <div class="flex justify-between">
+              <p></p><p>San Francisco, CA 94118</p>
+            </div>
           </div>
-          <div class="flex justify-between">
-            <p>Email:</p><a
-              href="mailto: pinkpuffinbicycles@gmail.com"
-              target="_blank"
-              class="underline">pinkpuffinbicycles@gmail.com</a
-            >
-          </div>
-          <div class="flex justify-between">
-            <p>Phone:</p><a href="tel:4159373553" target="_blank"
-              >415-937-3553</a
-            >
-          </div>
-          <div class="flex justify-between">
-            <p>Address:</p><p>3484 Sacramento Street</p>
-          </div>
-          <div class="flex justify-between">
-            <p></p><p>San Francisco, CA 94118</p>
-          </div>
-        </div>
-        <h1>Hours</h1>
-        <div class="flex flex-col divide-y divide-dashed divide-black/5">
-          <div class="flex justify-between">
-            <p>Monday:</p><p>8:00AM - 4:00PM</p>
-          </div>
-          <div class="flex justify-between">
-            <p>Tuesday:</p><p>8:00AM - 4:00PM</p>
-          </div>
-          <div class="flex justify-between">
-            <p>Wednesday:</p><p>closed</p>
-          </div>
-          <div class="flex justify-between">
-            <p>Thursday:</p><p>8:00AM - 4:00PM</p>
-          </div>
-          <div class="flex justify-between">
-            <p>Friday:</p><p>8:00AM - 4:00PM</p>
-          </div>
-          <div class="flex justify-between">
-            <p>Saturday:</p><p>9:00AM - 1:00PM</p>
-          </div>
-          <div class="flex justify-between">
-            <p>Sunday:</p><p>9:00AM - 1:00PM</p>
+          <h1>Hours</h1>
+          <div class="flex flex-col divide-y divide-dashed divide-black/5">
+            <div class="flex justify-between">
+              <p>Monday:</p><p>8:00AM - 4:00PM</p>
+            </div>
+            <div class="flex justify-between">
+              <p>Tuesday:</p><p>8:00AM - 4:00PM</p>
+            </div>
+            <div class="flex justify-between">
+              <p>Wednesday:</p><p>closed</p>
+            </div>
+            <div class="flex justify-between">
+              <p>Thursday:</p><p>8:00AM - 4:00PM</p>
+            </div>
+            <div class="flex justify-between">
+              <p>Friday:</p><p>8:00AM - 4:00PM</p>
+            </div>
+            <div class="flex justify-between">
+              <p>Saturday:</p><p>9:00AM - 1:00PM</p>
+            </div>
+            <div class="flex justify-between">
+              <p>Sunday:</p><p>9:00AM - 1:00PM</p>
+            </div>
           </div>
         </div>
       </section>
-      <section class="flex flex-col bg-black p-4">
+      <section
+        class="flex flex-col bg-black p-4 md:p-6 lg:p-8 xl:p-10 2xl:p-12"
+      >
         <iframe
           loading="lazy"
           allowfullscreen
           referrerpolicy="no-referrer-when-downgrade"
           src=`https://www.google.com/maps/embed/v1/place?key=${import.meta.env.API_KEY}
         &q=ink+Puffin+Bicycles,San+Francisco,CA&zoom=13`
-          class="aspect-square w-full border border-yellow-500"
+          class="aspect-square w-full grow border border-yellow-500 sm:aspect-auto"
         >
         </iframe>
       </section>
     </div>
+    <div class="h-4 flex-none bg-gradient-to-r from-black to-[#F8D1D1]"></div>
   </div>
-  <div class="h-4 flex-none bg-gradient-to-r from-black to-[#F8D1D1]"></div>
 </BaseLayout>

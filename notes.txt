@@ -3,7 +3,8 @@ Todo:
 - Make an onclick to fade modal in and out
 
 Reach Todo:
-- Solve hamburger drift at under smallest min width 
+- Solve hamburger drift at under smallest min width
+- How to target H1 breakpoints with Tailwind? Where is my CSS file
 
 About:
 
