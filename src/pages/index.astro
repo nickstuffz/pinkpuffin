@@ -8,10 +8,12 @@ const pageTitle = "PinkPuffinBicycles";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <div class="relative m-2 flex grow flex-col items-center justify-center">
+  <div
+    class="relative m-2 flex max-w-screen-2xl grow flex-col items-center justify-center"
+  >
     <div
       id="modal"
-      class="absolute z-10 flex h-2/3 min-h-min w-5/6 flex-col items-center justify-around gap-4 bg-black/60 p-4 transition-opacity duration-500 hover:opacity-0"
+      class="absolute z-10 flex h-2/3 min-h-72 w-5/6 flex-col items-center justify-around gap-4 bg-black/60 px-2 py-4 transition-opacity duration-500 sm:gap-6 md:gap-9 md:px-4 md:py-6 md:hover:opacity-0 lg:px-6 lg:py-8 xl:py-10"
     >
       <div class="flex w-full flex-col items-center justify-between gap-5">
         <Image
@@ -28,11 +30,12 @@ const pageTitle = "PinkPuffinBicycles";
         />
       </div>
       <div
-        class="text-md flex grow flex-col justify-between text-center font-thin text-white"
+        class="text-md flex grow flex-col justify-between text-center font-thin text-white sm:text-lg md:text-2xl lg:text-3xl xl:text-5xl"
       >
         <p>
           San Francisco&#39;s premier bicycle shop specializing in quality
           bicycle repair and service with exquisite stock and custom bicycles.
+          Experience it here.
         </p>
         <a href="mailto: pinkpuffinbicycles@gmail.com" target="_blank"
           >pinkpuffinbicycles@gmail.com</a
