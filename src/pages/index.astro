@@ -9,11 +9,11 @@ const pageTitle = "PinkPuffinBicycles";
 
 <BaseLayout pageTitle={pageTitle}>
   <div
-    class="relative m-2 flex max-w-screen-2xl grow flex-col items-center justify-center"
+    class="relative flex max-w-[1280px] grow flex-col items-center justify-center xl:p-10"
   >
     <div
       id="modal"
-      class="group absolute z-10 flex h-2/3 min-h-72 w-5/6 flex-col items-center justify-around gap-4 bg-black/60 px-2 py-4 sm:gap-6 md:gap-9 md:px-4 md:py-6 md:hover:bg-transparent lg:gap-12 lg:px-6 lg:py-8 xl:py-10"
+      class="group absolute z-10 flex h-2/3 max-h-fit min-h-72 w-5/6 max-w-[600px] flex-col items-center justify-around bg-black/60 px-2 py-4 text-center text-base font-thin text-white sm:gap-6 sm:py-6 sm:text-lg md:px-4 md:py-8 md:text-2xl md:hover:bg-transparent lg:px-6 lg:py-10"
     >
       <div
         class="flex w-full flex-col items-center justify-between gap-5 transition-opacity duration-500 ease-linear md:group-hover:opacity-0"
@@ -28,38 +28,35 @@ const pageTitle = "PinkPuffinBicycles";
           src={bicyclesText}
           alt="bicycles text"
           loading="eager"
-          class="w-3/5"
+          class="w-2/5"
         />
       </div>
-      <div
-        class="flex grow flex-col justify-between text-center text-base font-thin text-white sm:text-lg md:text-2xl lg:text-3xl xl:text-5xl"
+
+      <p
+        class="transition-opacity duration-500 ease-linear md:group-hover:opacity-0"
       >
-        <p
-          class="transition-opacity duration-500 ease-linear md:group-hover:opacity-0"
-        >
-          San Francisco&#39;s premier bicycle shop specializing in quality
-          bicycle repair and service with exquisite stock and custom bicycles.
-          Experience it here.
-        </p>
-        <a
-          href="mailto: pinkpuffinbicycles@gmail.com"
-          target="_blank"
-          class="md:group-hover:bg-black md:group-hover:text-[#EC6FA7]"
-          >pinkpuffinbicycles@gmail.com</a
-        ><a
-          href="tel:4159373553"
-          target="_blank"
-          class="md:group-hover:bg-black md:group-hover:text-[#EC6FA7]"
-          >415-937-3553</a
-        >
-      </div>
+        San Francisco&#39;s premier bicycle shop specializing in quality bicycle
+        repair and service with exquisite stock and custom bicycles. Experience
+        it here.
+      </p>
+      <a
+        href="mailto: pinkpuffinbicycles@gmail.com"
+        target="_blank"
+        class="md:group-hover:bg-black md:group-hover:text-[#EC6FA7]"
+        >pinkpuffinbicycles@gmail.com</a
+      ><a
+        href="tel:4159373553"
+        target="_blank"
+        class="md:group-hover:bg-black md:group-hover:text-[#EC6FA7]"
+        >415-937-3553</a
+      >
     </div>
 
     <Image
       src={shopBike}
       alt="Pink Puffin shop bicycle"
       loading="eager"
-      class="relative grow object-cover"
+      class="relative grow object-cover xl:max-h-[1000px]"
     />
   </div>
 </BaseLayout>
