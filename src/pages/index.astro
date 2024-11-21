@@ -8,31 +8,35 @@ const pageTitle = "PinkPuffinBicycles";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-  <div class="relative flex items-center justify-center">
+  <div class="relative m-2 flex grow flex-col items-center justify-center">
     <div
       id="modal"
-      class="absolute z-10 mt-1 flex aspect-[5/4] w-5/6 flex-col items-center gap-5 bg-black/60 p-4 transition-opacity duration-500 hover:opacity-0"
+      class="absolute z-10 flex h-2/3 min-h-min w-5/6 flex-col items-center justify-around gap-4 bg-black/60 p-4 transition-opacity duration-500 hover:opacity-0"
     >
-      <Image
-        src={ppText}
-        alt="Pink Puffin text"
-        loading="eager"
-        class="w-3/4 flex-none"
-      />
-      <Image
-        src={bicyclesText}
-        alt="bicycles text"
-        loading="eager"
-        class="w-3/5 flex-none"
-      />
+      <div class="flex w-full flex-col items-center justify-between gap-5">
+        <Image
+          src={ppText}
+          alt="Pink Puffin text"
+          loading="eager"
+          class="w-4/5"
+        />
+        <Image
+          src={bicyclesText}
+          alt="bicycles text"
+          loading="eager"
+          class="w-3/5"
+        />
+      </div>
       <div
-        class="my-1 flex grow flex-col justify-between text-center text-[3vw] font-thin text-white"
+        class="text-md flex grow flex-col justify-between text-center font-thin text-white"
       >
         <p>
           San Francisco&#39;s premier bicycle shop specializing in quality
           bicycle repair and service with exquisite stock and custom bicycles.
         </p>
-        <p>pinkpuffinbicycles@gmail.com</p><p>415-937-3553</p>
+        <a href="mailto: pinkpuffinbicycles@gmail.com" target="_blank"
+          >pinkpuffinbicycles@gmail.com</a
+        ><a href="tel:4159373553" target="_blank">415-937-3553</a>
       </div>
     </div>
 
@@ -40,7 +44,7 @@ const pageTitle = "PinkPuffinBicycles";
       src={shopBike}
       alt="Pink Puffin shop bicycle"
       loading="eager"
-      class="relative"
+      class="relative grow object-cover"
     />
   </div>
 </BaseLayout>
