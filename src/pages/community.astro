@@ -1,0 +1,17 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ColumnLayout from "../layouts/ColumnLayout.astro";
+import { getEntry } from "astro:content";
+
+const community = await getEntry("markdown", "community");
+const { Content } = await community.render();
+
+const pageTitle = community.data.title;
+const images = community.data.images;
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <ColumnLayout images={images} pageTitle={pageTitle}>
+    <Content />
+  </ColumnLayout>
+</BaseLayout>
