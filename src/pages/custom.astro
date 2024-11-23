@@ -1,10 +1,11 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ColumnLayout from "../layouts/ColumnLayout.astro";
-import { Content } from "../content/markdown/custom.md";
 import { getEntry } from "astro:content";
 
 const custom = await getEntry("markdown", "custom");
+const { Content } = await custom.render();
+
 const pageTitle = custom.data.title;
 const images = custom.data.images;
 ---

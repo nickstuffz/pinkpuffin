@@ -1,10 +1,11 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ColumnLayout from "../layouts/ColumnLayout.astro";
-import { Content } from "../content/markdown/brands.md";
 import { getEntry } from "astro:content";
 
 const brands = await getEntry("markdown", "brands");
+const { Content } = await brands.render();
+
 const pageTitle = brands.data.title;
 const images = brands.data.images;
 ---
