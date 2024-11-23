@@ -1,5 +1,6 @@
 ---
 title: "Bike Fitting"
+order: 3
 ---
 
 # Bike Fitting

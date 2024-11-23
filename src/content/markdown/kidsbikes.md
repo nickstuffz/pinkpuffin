@@ -1,5 +1,6 @@
 ---
 title: "Kids' Bikes"
+order: 4
 ---
 
 # Kids' Bikes

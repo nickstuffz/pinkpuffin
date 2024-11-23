@@ -1,5 +1,6 @@
 ---
 title: "About"
+order: 6
 ---
 
 # Philosophy

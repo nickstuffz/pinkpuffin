@@ -1,5 +1,6 @@
 ---
 title: "Custom Bikes"
+order: 1
 ---
 
 # Custom Bikes

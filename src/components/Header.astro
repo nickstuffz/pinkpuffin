@@ -3,8 +3,8 @@ import { Image } from "astro:assets";
 import logoIcon from "../assets/logoIcon.svg";
 import ppText from "../assets/ppText.svg";
 import bicyclesText from "../assets/bicyclesText.svg";
-import socialFacebook from "../assets/socialFacebook.svg";
-import socialInstagram from "../assets/socialInstagram.svg";
+import Menu from "../components/Menu.astro";
+import Hamburger from "../components/Hamburger.astro";
 ---
 
 <!-- Header -->
@@ -43,80 +43,7 @@ import socialInstagram from "../assets/socialInstagram.svg";
   <div
     class="absolute right-0 z-20 flex max-h-svh flex-col items-end md:static md:grow"
   >
-    <!-- Hamburger -->
-    <button
-      id="hamburger"
-      class="flex h-20 w-20 flex-none flex-col justify-center gap-2 border-l border-white/10 p-5 md:hidden"
-    >
-      <span
-        id="hamburger-top"
-        class="h-1 w-full rounded-sm bg-white transition-transform"></span>
-      <span
-        id="hamburger-mid"
-        class="h-1 w-4/5 rounded-sm bg-white opacity-100 transition-opacity"
-      ></span>
-      <span
-        id="hamburger-bot"
-        class="h-1 w-full rounded-sm bg-white transition-transform"></span>
-    </button>
-    <!-- Menu -->
-    <div
-      id="menu-container"
-      class="delay-50 flex grow opacity-0 transition-opacity md:h-auto md:w-full md:opacity-100"
-    >
-      <nav
-        id="menu"
-        class="hidden w-52 flex-col items-end divide-y divide-solid divide-black/30 rounded-bl-2xl bg-black/90 pb-5 text-xl font-extralight tracking-widest text-white md:flex md:w-full md:flex-row md:text-nowrap md:rounded-none md:pb-0 md:text-xs lg:text-sm 2xl:text-base"
-      >
-        <a
-          class="menu-link flex flex-1 items-center pr-4 hover:text-[#EC6FA7] md:justify-center md:pb-px md:pr-0"
-          href="/custom"
-        >
-          Custom</a
-        >
-        <a
-          class="menu-link flex flex-1 items-center pr-4 hover:text-[#EC6FA7] md:justify-center md:pb-px md:pr-0"
-          href="/brands/">Bike Brands</a
-        >
-        <a
-          class="menu-link flex flex-1 items-center pr-4 hover:text-[#EC6FA7] md:justify-center md:pb-px md:pr-0"
-          href="/fitting/">Bike Fitting</a
-        >
-        <a
-          class="menu-link flex flex-1 items-center pr-4 hover:text-[#EC6FA7] md:justify-center md:pb-px md:pr-0"
-          href="/kidsbikes/">Kids' Bikes</a
-        >
-
-        <a
-          class="menu-link flex flex-1 items-center pr-4 hover:text-[#EC6FA7] md:justify-center md:pb-px md:pr-0"
-          href="/services/">Services</a
-        >
-        <a
-          class="menu-link flex flex-1 items-center pr-4 hover:text-[#EC6FA7] md:justify-center md:pb-px md:pr-0"
-          href="/about/">About</a
-        >
-        <a
-          class="menu-link flex flex-1 items-center pr-4 hover:text-[#EC6FA7] md:justify-center md:pb-px md:pr-0"
-          href="/contact/">Contact</a
-        >
-        <!-- <Social /> -->
-        <nav
-          class="flex flex-1 items-center gap-5 pr-4 md:absolute md:right-5 md:top-7"
-        >
-          <a
-            href="https://www.facebook.com/p/Pink-Puffin-Bicycles-100089665568808/"
-            target="_blank"
-          >
-            <Image src={socialFacebook} alt="Facebook icon" class="h-8 w-8" />
-          </a>
-          <a
-            href="https://www.instagram.com/pinkpuffinbicycles/"
-            target="_blank"
-          >
-            <Image src={socialInstagram} alt="Instagram icon" class="h-8 w-8" />
-          </a>
-        </nav>
-      </nav>
-    </div>
+    <Hamburger />
+    <Menu />
   </div>
 </header>

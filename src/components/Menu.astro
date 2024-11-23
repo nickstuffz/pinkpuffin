@@ -1,0 +1,52 @@
+---
+import { Image } from "astro:assets";
+import socialFacebook from "../assets/socialFacebook.svg";
+import socialInstagram from "../assets/socialInstagram.svg";
+import { getCollection } from "astro:content";
+
+const markdowns = await getCollection("markdown");
+---
+
+<div
+  id="menu-container"
+  class="delay-50 flex grow opacity-0 transition-opacity md:h-auto md:w-full md:opacity-100"
+>
+  <p>{markdowns}</p>
+  <nav
+    id="menu"
+    class="hidden w-52 flex-col items-end divide-y divide-solid divide-black/30 rounded-bl-2xl bg-black/90 pb-5 text-xl font-extralight tracking-widest text-white md:flex md:w-full md:flex-row md:text-nowrap md:rounded-none md:pb-0 md:text-xs lg:text-sm 2xl:text-base"
+  >
+    <!-- Menu Links -->
+    {
+      markdowns
+        .sort((a, b) => {
+          return a.data.order - b.data.order;
+        })
+        .map((markdown) => {
+          return (
+            <a
+              class="menu-link flex flex-1 items-center pr-4 hover:text-[#EC6FA7] md:justify-center md:pb-px md:pr-0"
+              href={`/${markdown.slug}`}
+            >
+              {markdown.data.title}
+            </a>
+          );
+        })
+    }
+
+    <!-- Social -->
+    <nav
+      class="flex flex-1 items-center gap-5 pr-4 md:absolute md:right-5 md:top-7"
+    >
+      <a
+        href="https://www.facebook.com/p/Pink-Puffin-Bicycles-100089665568808/"
+        target="_blank"
+      >
+        <Image src={socialFacebook} alt="Facebook icon" class="h-8 w-8" />
+      </a>
+      <a href="https://www.instagram.com/pinkpuffinbicycles/" target="_blank">
+        <Image src={socialInstagram} alt="Instagram icon" class="h-8 w-8" />
+      </a>
+    </nav>
+  </nav>
+</div>

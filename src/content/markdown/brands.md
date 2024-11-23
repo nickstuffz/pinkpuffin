@@ -1,5 +1,6 @@
 ---
 title: "Bike Brands"
+order: 2
 ---
 
 # Sage Titanium
