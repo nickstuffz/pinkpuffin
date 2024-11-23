@@ -1,6 +1,11 @@
 ---
 title: "About"
 order: 6
+images:
+  [
+    { image: "../../assets/philPAS.webp", alt: "Phil at Pas Normal Studios" },
+    { image: "../../assets/philFam.webp", alt: "the Phil family" },
+  ]
 ---
 
 # Philosophy

@@ -2,6 +2,7 @@ In Progress:
 - Refactor links component
 
 Todo:
+- Learn TS, 
 - Read up on project structure. Write out a skeleton.
 - Refactor Markdown files into a collection?
 - Refactor to an extra layout (to include Contact in Columns Layout)

@@ -1,6 +1,14 @@
 ---
 title: "Bike Fitting"
 order: 3
+images:
+  [
+    {
+      image: "../../assets/paragonFitStudioLogo.webp",
+      alt: "Paragon Fit Studio logo",
+    },
+    { image: "../../assets/vitruvianMan.webp", alt: "vitruvian man" },
+  ]
 ---
 
 # Bike Fitting

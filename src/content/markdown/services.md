@@ -1,6 +1,7 @@
 ---
 title: "Services"
 order: 5
+images: [{ image: "../../assets/drivetrain.webp", alt: "bicycle drivetrain" }]
 ---
 
 # Services

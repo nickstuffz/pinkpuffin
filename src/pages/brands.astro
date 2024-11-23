@@ -1,24 +1,16 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ColumnLayout from "../layouts/ColumnLayout.astro";
-import { Content, frontmatter } from "../content/markdown/brands.md";
-import image1 from "../assets/sageLogo.webp";
-import image2 from "../assets/sageBike.webp";
-import image3 from "../assets/fiftyOneLogo.webp";
-import image4 from "../assets/fiftyOneBike.webp";
-import image5 from "../assets/colnagoLogo.webp";
+import { Content } from "../content/markdown/brands.md";
+import { getEntry } from "astro:content";
 
-const images = [
-  { image: image1, alt: "Sage logo" },
-  { image: image2, alt: "Sage bicycle" },
-  { image: image3, alt: "FiftyOne logo" },
-  { image: image4, alt: "FiftyOne bicycle" },
-  { image: image5, alt: "Colnago logo" },
-];
+const brands = await getEntry("markdown", "brands");
+const pageTitle = brands.data.title;
+const images = brands.data.images;
 ---
 
-<BaseLayout pageTitle={frontmatter.title}>
-  <ColumnLayout images={images} pageTitle={frontmatter.title}>
+<BaseLayout pageTitle={pageTitle}>
+  <ColumnLayout images={images} pageTitle={pageTitle}>
     <Content />
   </ColumnLayout>
 </BaseLayout>

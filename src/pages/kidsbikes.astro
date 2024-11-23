@@ -1,18 +1,16 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ColumnLayout from "../layouts/ColumnLayout.astro";
-import { Content, frontmatter } from "../content/markdown/kidsbikes.md";
-import image1 from "../assets/earlyRiderLogo.webp";
-import image2 from "../assets/earlyRiderBikes.webp";
+import { Content } from "../content/markdown/kidsbikes.md";
+import { getEntry } from "astro:content";
 
-const images = [
-  { image: image1, alt: "EarlyRider logo" },
-  { image: image2, alt: "EarlyRider bicycles" },
-];
+const kidsbikes = await getEntry("markdown", "kidsbikes");
+const pageTitle = kidsbikes.data.title;
+const images = kidsbikes.data.images;
 ---
 
-<BaseLayout pageTitle={frontmatter.title}>
-  <ColumnLayout images={images}>
+<BaseLayout pageTitle={pageTitle}>
+  <ColumnLayout images={images} pageTitle={pageTitle}>
     <Content />
   </ColumnLayout>
 </BaseLayout>

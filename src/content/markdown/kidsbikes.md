@@ -1,6 +1,11 @@
 ---
 title: "Kids' Bikes"
 order: 4
+images:
+  [
+    { image: "../../assets/earlyRiderLogo.webp", alt: "EarlyRider logo" },
+    { image: "../../assets/earlyRiderBikes.webp", alt: "EarlyRider bicycles" },
+  ]
 ---
 
 # Kids' Bikes

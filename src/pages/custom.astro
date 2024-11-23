@@ -1,14 +1,16 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ColumnLayout from "../layouts/ColumnLayout.astro";
-import { Content, frontmatter } from "../content/markdown/custom.md";
-import image1 from "../assets/bikeMeasure.webp";
+import { Content } from "../content/markdown/custom.md";
+import { getEntry } from "astro:content";
 
-const images = [{ image: image1, alt: "bicycle with measurements" }];
+const custom = await getEntry("markdown", "custom");
+const pageTitle = custom.data.title;
+const images = custom.data.images;
 ---
 
-<BaseLayout pageTitle={frontmatter.title}>
-  <ColumnLayout images={images}>
+<BaseLayout pageTitle={pageTitle}>
+  <ColumnLayout images={images} pageTitle={pageTitle}>
     <Content />
   </ColumnLayout>
 </BaseLayout>

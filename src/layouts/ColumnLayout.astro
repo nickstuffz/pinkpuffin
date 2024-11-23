@@ -1,13 +1,12 @@
 ---
 import { Image } from "astro:assets";
-const { images, pageTitle = null } = Astro.props;
+const { images, pageTitle } = Astro.props;
+const tw = (strings, ...values) => String.raw({ raw: strings }, ...values);
 
-let imageColumnClasses =
-  "flex flex-col items-center gap-2 bg-black p-4 md:p-6 lg:gap-4 lg:p-8 xl:p-10 2xl:p-12";
+let imageColumnClasses = tw`flex flex-col items-center gap-2 bg-black p-4 md:p-6 lg:gap-4 lg:p-8 xl:p-10 2xl:p-12`;
 
 if (pageTitle === "Bike Brands") {
-  imageColumnClasses =
-    "flex flex-col items-center gap-2 bg-black p-4 md:p-6 lg:gap-4 lg:p-8 xl:p-10 2xl:grid 2xl:grid-flow-dense 2xl:grid-cols-2 2xl:place-items-center 2xl:p-12";
+  imageColumnClasses = tw`flex flex-col items-center gap-2 bg-black p-4 md:p-6 lg:gap-4 lg:p-8 xl:p-10 2xl:grid 2xl:grid-flow-dense 2xl:grid-cols-2 2xl:place-items-center 2xl:p-12`;
 }
 ---
 

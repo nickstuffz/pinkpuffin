@@ -1,14 +1,16 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ColumnLayout from "../layouts/ColumnLayout.astro";
-import { Content, frontmatter } from "../content/markdown/services.md";
-import image1 from "../assets/drivetrain.webp";
+import { Content } from "../content/markdown/services.md";
+import { getEntry } from "astro:content";
 
-const images = [{ image: image1, alt: "bicycle drivetrain" }];
+const services = await getEntry("markdown", "services");
+const pageTitle = services.data.title;
+const images = services.data.images;
 ---
 
-<BaseLayout pageTitle={frontmatter.title}>
-  <ColumnLayout images={images}>
+<BaseLayout pageTitle={pageTitle}>
+  <ColumnLayout images={images} pageTitle={pageTitle}>
     <Content />
   </ColumnLayout>
 </BaseLayout>
