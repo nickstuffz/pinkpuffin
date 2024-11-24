@@ -1,18 +1,10 @@
 In Progress:
-- Refactor links component
 
 Todo:
-- Learn TS, 
-- Read up on project structure. Write out a skeleton.
-- Refactor Markdown files into a collection?
-- Refactor to an extra layout (to include Contact in Columns Layout)
-- Make an onclick to fade modal in and out for mobile
+- Add type safety
+- Refactor to another layout file (to include Contact in Columns Layout)
+- Create onClick for modal for mobile breakpoints
 
 Reach Todo:
 - Solve hamburger drift at under smallest min width
-- How to target H1 breakpoints with Tailwind? Where is my CSS file
-
-About:
-
-I rebuilt this website from scratch using Astro. My friend's bike shop was running on Wix and way too slow.
-Custom tailored SVGs, resized photos. Hero photo is shot by me.
+- Add Tailwind styling to Markdown (using Prose component)

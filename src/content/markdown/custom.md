@@ -1,5 +1,5 @@
 ---
-title: "Custom Bikes"
+title: "Custom"
 order: 1
 images:
   [{ image: "../../assets/bikeMeasure.webp", alt: "bicycle with measurements" }]

@@ -8,6 +8,7 @@ images:
     { image: "../../assets/fiftyOneLogo.webp", alt: "FiftyOne logo" },
     { image: "../../assets/fiftyOneBike.webp", alt: "FiftyOne bicycle" },
     { image: "../../assets/colnagoLogo.webp", alt: "Colnago logo" },
+    { image: "../../assets/colnagoFrame.webp", alt: Colnago frame },
   ]
 ---
 
@@ -23,4 +24,4 @@ FiftyOne, based in Dublin, Ireland, has changed the world of custom carbon bicyc
 
 # Colnago
 
-Text coming soon...
+You know Colnago. Text coming soon...

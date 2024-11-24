@@ -8,7 +8,7 @@ images:
   ]
 ---
 
-sponsored by Pink Puffin!
+sponsored by Pink Puffin! more coming soon...
 
 # Dolce Vita Cycling
 
