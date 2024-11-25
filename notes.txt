@@ -1,4 +1,6 @@
 In Progress:
+- Add demo page
+- Change icon from animate to transition
 
 Todo:
 - Add type safety
