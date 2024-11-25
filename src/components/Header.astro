@@ -5,6 +5,8 @@ import ppText from "../assets/ppText.svg";
 import bicyclesText from "../assets/bicyclesText.svg";
 import Menu from "../components/Menu.astro";
 import Hamburger from "../components/Hamburger.astro";
+
+const { pageTitle } = Astro.props;
 ---
 
 <!-- Header -->
@@ -44,6 +46,6 @@ import Hamburger from "../components/Hamburger.astro";
     class="absolute right-0 z-20 flex max-h-svh flex-col items-end md:static md:grow"
   >
     <Hamburger />
-    <Menu />
+    <Menu pageTitle={pageTitle} />
   </div>
 </header>

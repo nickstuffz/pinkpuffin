@@ -5,6 +5,7 @@ import socialInstagram from "../assets/socialInstagram.svg";
 import { getCollection } from "astro:content";
 
 const markdowns = await getCollection("markdown");
+const { pageTitle } = Astro.props;
 ---
 
 <div
@@ -23,14 +24,25 @@ const markdowns = await getCollection("markdown");
           return a.data.order - b.data.order;
         })
         .map((markdown) => {
-          return (
-            <a
-              class="menu-link flex flex-1 items-center pr-4 hover:text-[#EC6FA7] md:justify-center md:pb-px md:pr-0"
-              href={`/${markdown.slug}`}
-            >
-              {markdown.data.title}
-            </a>
-          );
+          if (markdown.data.title === pageTitle) {
+            return (
+              <a
+                class="menu-link flex flex-1 items-center pr-4 text-[#EC6FA7] hover:text-[#EC6FA7] md:justify-center md:pb-px md:pr-0"
+                href={`/${markdown.slug}`}
+              >
+                {markdown.data.title}
+              </a>
+            );
+          } else {
+            return (
+              <a
+                class="menu-link flex flex-1 items-center pr-4 hover:text-[#EC6FA7] md:justify-center md:pb-px md:pr-0"
+                href={`/${markdown.slug}`}
+              >
+                {markdown.data.title}
+              </a>
+            );
+          }
         })
     }
 
