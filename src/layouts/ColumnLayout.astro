@@ -1,12 +1,13 @@
 ---
+import Prose from "../components/Prose.astro";
 import { Image } from "astro:assets";
 const { images, pageTitle } = Astro.props;
 const tw = (strings, ...values) => String.raw({ raw: strings }, ...values);
 
-let imageColumnClasses = tw`flex flex-col items-center gap-2 bg-black p-4 md:p-6 lg:gap-4 lg:p-8 xl:p-10 2xl:p-12`;
+let imageColumnClasses = tw`flex flex-col items-center gap-2 bg-black p-4 md:p-3 lg:gap-4 lg:p-6 xl:p-8 2xl:p-12`;
 
 if (pageTitle === "Bike Brands") {
-  imageColumnClasses = tw`flex flex-col items-center gap-2 bg-black p-4 md:p-6 lg:gap-4 lg:p-8 xl:p-10 2xl:grid 2xl:grid-flow-dense 2xl:grid-cols-2 2xl:place-items-center 2xl:p-12`;
+  imageColumnClasses = tw`flex flex-col items-center gap-2 bg-black p-4 md:p-3 lg:gap-4 lg:p-6 xl:p-8 2xl:grid 2xl:grid-flow-dense 2xl:grid-cols-2 2xl:place-items-center 2xl:p-12`;
 }
 ---
 
@@ -14,13 +15,11 @@ if (pageTitle === "Bike Brands") {
   <div class="h-4 flex-none bg-gradient-to-r from-black to-[#F8D1D1]"></div>
   <div class="grid grow grid-cols-1 sm:grid-cols-2">
     <section
-      class="flex flex-col items-center bg-[#F8D1D1] p-4 md:p-6 lg:p-8 xl:p-10 2xl:p-12"
+      class="flex flex-col items-center bg-[#F8D1D1] p-2 md:p-3 lg:p-8 xl:p-8 2xl:p-12"
     >
-      <div
-        class="flex w-full flex-col gap-4 text-base md:max-w-[70%] lg:gap-6 xl:max-w-[65%] xl:text-lg"
-      >
+      <Prose>
         <slot />
-      </div>
+      </Prose>
     </section>
     <section class={imageColumnClasses}>
       {
