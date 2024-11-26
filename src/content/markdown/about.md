@@ -1,6 +1,6 @@
 ---
 title: "About"
-order: 6
+order: 8
 images:
   [
     { image: "../../assets/philPAS.webp", alt: "Phil at Pas Normal Studios" },

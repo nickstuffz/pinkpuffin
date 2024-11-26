@@ -1,6 +1,6 @@
 ---
 title: "Community"
-order: 7
+order: 6
 images:
   [
     { image: "../../assets/dolceVitaLogo.svg", alt: "Dolce Vita logo" },
@@ -8,7 +8,9 @@ images:
   ]
 ---
 
-sponsored by Pink Puffin! more coming soon...
+sponsored by Pink Puffin!
+
+more coming soon...
 
 # Dolce Vita Cycling
 

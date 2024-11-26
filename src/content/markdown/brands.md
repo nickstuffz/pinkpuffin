@@ -3,7 +3,7 @@ title: "Bike Brands"
 order: 2
 images:
   [
-    { image: ../../assets/sageLogo.webp, alt: "Sage logo" },
+    { image: "../../assets/sageLogo.webp", alt: "Sage logo" },
     { image: "../../assets/sageBike.webp", alt: "Sage bicycle" },
     { image: "../../assets/fiftyOneLogo.webp", alt: "FiftyOne logo" },
     { image: "../../assets/fiftyOneBike.webp", alt: "FiftyOne bicycle" },

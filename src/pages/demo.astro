@@ -1,0 +1,17 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ColumnLayout from "../layouts/ColumnLayout.astro";
+import { getEntry } from "astro:content";
+
+const demo = await getEntry("markdown", "demo");
+const { Content } = await demo.render();
+
+const pageTitle = demo.data.title;
+const images = demo.data.images;
+---
+
+<BaseLayout pageTitle={pageTitle}>
+  <ColumnLayout images={images} pageTitle={pageTitle}>
+    <Content />
+  </ColumnLayout>
+</BaseLayout>
