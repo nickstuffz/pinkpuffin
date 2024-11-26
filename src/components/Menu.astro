@@ -1,7 +1,7 @@
 ---
 import { Image } from "astro:assets";
-import socialFacebook from "../assets/socialFacebook.svg";
-import socialInstagram from "../assets/socialInstagram.svg";
+import socialFb from "../assets/socialFb.svg";
+import socialInsta from "../assets/socialInsta.svg";
 import { getCollection } from "astro:content";
 
 const markdowns = await getCollection("markdown");
@@ -54,10 +54,18 @@ const { pageTitle } = Astro.props;
         href="https://www.facebook.com/p/Pink-Puffin-Bicycles-100089665568808/"
         target="_blank"
       >
-        <Image src={socialFacebook} alt="Facebook icon" class="h-8 w-8" />
+        <Image
+          src={socialFb}
+          alt="Facebook icon"
+          class="h-8 w-8 border border-dotted border-white/10"
+        />
       </a>
       <a href="https://www.instagram.com/pinkpuffinbicycles/" target="_blank">
-        <Image src={socialInstagram} alt="Instagram icon" class="h-8 w-8" />
+        <Image
+          src={socialInsta}
+          alt="Instagram icon"
+          class="h-8 w-8 border border-dotted border-white/10"
+        />
       </a>
     </nav>
   </nav>
