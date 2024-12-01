@@ -7,7 +7,7 @@ Todo:
 - Add type safety
 - Refactor to another layout file (to include Contact in Columns Layout)
 - Create onClick for modal for mobile breakpoints
-- Maybe disable Image processing, it's making images larger
+- Maybe disable Image processing, it's making images larger, use public?
 
 Reach Todo:
 x Solve hamburger drift at under smallest min width 
