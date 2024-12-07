@@ -1,6 +1,4 @@
 In Progress:
-x Add demo page
-x Change icon from animate to transition
 - Set image links
 
 Todo:
@@ -8,7 +6,8 @@ Todo:
 - Refactor to another layout file (to include Contact in Columns Layout)
 - Create onClick for modal for mobile breakpoints
 - Maybe disable Image processing, it's making images larger, use public?
+- Demo content
+- Colnago blurb
+- Community content
 
 Reach Todo:
-x Solve hamburger drift at under smallest min width 
-x Add Tailwind styling to Markdown (using Prose component)
