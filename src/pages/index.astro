@@ -9,6 +9,7 @@ const pageTitle = "PinkPuffinBicycles";
 
 <BaseLayout pageTitle={pageTitle}>
   <div
+    id="hero"
     class="relative flex max-w-[1280px] grow flex-col items-center justify-center lg:p-6 xl:p-10"
   >
     <div
@@ -42,21 +43,34 @@ const pageTitle = "PinkPuffinBicycles";
       <a
         href="mailto: pinkpuffinbicycles@gmail.com"
         target="_blank"
-        class="md:group-hover:bg-black md:group-hover:text-[#EC6FA7]"
+        class="underline decoration-1 underline-offset-2 md:group-hover:bg-black md:group-hover:text-[#EC6FA7]"
         >pinkpuffinbicycles@gmail.com</a
       ><a
         href="tel:4159373553"
         target="_blank"
-        class="md:group-hover:bg-black md:group-hover:text-[#EC6FA7]"
+        class="underline decoration-1 underline-offset-2 md:group-hover:bg-black md:group-hover:text-[#EC6FA7]"
         >415-937-3553</a
       >
     </div>
 
     <Image
+      id="hero-image"
       src={shopBike}
       alt="Pink Puffin shop bicycle"
       loading="eager"
       class="relative grow object-cover xl:max-h-[1000px]"
     />
   </div>
+  <script>
+    document.querySelector("#hero-image").addEventListener("click", () => {
+      const modal = document.querySelector("#modal");
+      if (modal.classList.contains("hidden")) {
+        modal.classList.remove("hidden");
+        modal.classList.add("flex");
+      } else {
+        modal.classList.remove("flex");
+        modal.classList.add("hidden");
+      }
+    });
+  </script>
 </BaseLayout>

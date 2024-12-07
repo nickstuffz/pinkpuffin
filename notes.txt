@@ -1,10 +1,10 @@
 In Progress:
+x Create onClick for home page, hide modal
 - Set image links
 
 Todo:
 - Add type safety
 - Refactor to another layout file (to include Contact in Columns Layout)
-- Create onClick for modal for mobile breakpoints
 - Maybe disable Image processing, it's making images larger, use public?
 - Demo content
 - Colnago blurb
