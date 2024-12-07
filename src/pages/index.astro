@@ -14,9 +14,10 @@ const pageTitle = "PinkPuffinBicycles";
   >
     <div
       id="modal"
-      class="group absolute z-10 flex h-2/3 max-h-fit min-h-72 w-5/6 max-w-[600px] flex-col items-center justify-around bg-black/60 px-2 py-4 text-center text-base font-thin text-white sm:gap-6 sm:py-6 sm:text-lg md:px-4 md:py-8 md:text-2xl md:hover:bg-transparent lg:px-6 lg:py-10"
+      class="group absolute z-10 flex h-2/3 max-h-fit min-h-72 w-5/6 max-w-[600px] flex-col items-center justify-around bg-black/60 px-2 py-4 text-center text-base font-thin text-white sm:gap-4 sm:py-6 sm:text-lg md:px-4 md:py-8 md:text-2xl md:hover:bg-transparent lg:px-6 lg:py-10"
     >
       <div
+        id="modal-images"
         class="flex w-full flex-col items-center justify-between gap-5 transition-opacity duration-500 ease-linear md:group-hover:opacity-0"
       >
         <Image
@@ -34,6 +35,7 @@ const pageTitle = "PinkPuffinBicycles";
       </div>
 
       <p
+        id="modal-text"
         class="transition-opacity duration-500 ease-linear md:group-hover:opacity-0"
       >
         San Francisco&#39;s premier bicycle shop specializing in quality bicycle
@@ -41,11 +43,13 @@ const pageTitle = "PinkPuffinBicycles";
         it here.
       </p>
       <a
+        id="modal-email"
         href="mailto: pinkpuffinbicycles@gmail.com"
         target="_blank"
         class="underline decoration-1 underline-offset-2 md:group-hover:bg-black md:group-hover:text-[#EC6FA7]"
         >pinkpuffinbicycles@gmail.com</a
       ><a
+        id="modal-phone"
         href="tel:4159373553"
         target="_blank"
         class="underline decoration-1 underline-offset-2 md:group-hover:bg-black md:group-hover:text-[#EC6FA7]"
@@ -62,14 +66,32 @@ const pageTitle = "PinkPuffinBicycles";
     />
   </div>
   <script>
-    document.querySelector("#hero-image").addEventListener("click", () => {
-      const modal = document.querySelector("#modal");
-      if (modal.classList.contains("hidden")) {
-        modal.classList.remove("hidden");
-        modal.classList.add("flex");
+    const modal = document.querySelector("#modal");
+    const modalImages = document.querySelector("#modal-images");
+    const modalText = document.querySelector("#modal-text");
+    const modalEmail = document.querySelector("#modal-email");
+    const modalPhone = document.querySelector("#modal-phone");
+
+    modalEmail.addEventListener("click", (e) => {
+      e.stopPropagation();
+    });
+    modalPhone.addEventListener("click", (e) => {
+      e.stopPropagation();
+    });
+
+    modal.addEventListener("click", () => {
+      if (modal.classList.contains("max-md:bg-transparent")) {
+        modal.classList.remove("max-md:bg-transparent");
+        modalImages.classList.remove("max-md:opacity-0");
+        modalText.classList.remove("max-md:opacity-0");
+        modalEmail.classList.remove("max-md:bg-black", "max-md:text-[#EC6FA7]");
+        modalPhone.classList.remove("max-md:bg-black", "max-md:text-[#EC6FA7]");
       } else {
-        modal.classList.remove("flex");
-        modal.classList.add("hidden");
+        modal.classList.add("max-md:bg-transparent");
+        modalImages.classList.add("max-md:opacity-0");
+        modalText.classList.add("max-md:opacity-0");
+        modalEmail.classList.add("max-md:bg-black", "max-md:text-[#EC6FA7]");
+        modalPhone.classList.add("max-md:bg-black", "max-md:text-[#EC6FA7]");
       }
     });
   </script>

@@ -1,9 +1,10 @@
+const menu = document.querySelector("#menu");
+const menuContainer = document.querySelector("#menu-container");
+const hamburgerTop = document.querySelector("#hamburger-top");
+const hamburgerMid = document.querySelector("#hamburger-mid");
+const hamburgerBot = document.querySelector("#hamburger-bot");
+
 document.querySelector("#hamburger").addEventListener("click", () => {
-  const menu = document.querySelector("#menu");
-  const menuContainer = document.querySelector("#menu-container");
-  const hamburgerTop = document.querySelector("#hamburger-top");
-  const hamburgerMid = document.querySelector("#hamburger-mid");
-  const hamburgerBot = document.querySelector("#hamburger-bot");
   if (menu.classList.contains("hidden")) {
     menu.classList.remove("hidden");
     menu.classList.add("flex");
