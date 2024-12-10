@@ -6,6 +6,7 @@ images:
     {
       image: "../../assets/paragonFitStudioLogo.webp",
       alt: "Paragon Fit Studio logo",
+      link: "https://www.paragonfitstudio.com/",
     },
     { image: "../../assets/vitruvianMan.webp", alt: "vitruvian man" },
   ]

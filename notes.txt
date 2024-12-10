@@ -9,5 +9,9 @@ Todo:
 - Demo content
 - Colnago blurb
 - Community content
+- Spell-check content
 
 Reach Todo:
+- Better solution for Modal responsiveness?
+- Better solution for onClick vs css hover on modal?
+- Add notes to explain code

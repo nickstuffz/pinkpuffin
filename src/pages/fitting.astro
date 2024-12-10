@@ -5,12 +5,10 @@ import { getEntry } from "astro:content";
 
 const fitting = await getEntry("markdown", "fitting");
 const { Content } = await fitting.render();
-const pageTitle = fitting.data.title;
-const images = fitting.data.images;
 ---
 
-<BaseLayout pageTitle={pageTitle}>
-  <ColumnLayout images={images} pageTitle={pageTitle}>
+<BaseLayout pageTitle={fitting.data.title}>
+  <ColumnLayout pageData={fitting}>
     <Content />
   </ColumnLayout>
 </BaseLayout>

@@ -5,13 +5,10 @@ import { getEntry } from "astro:content";
 
 const about = await getEntry("markdown", "about");
 const { Content } = await about.render();
-
-const pageTitle = about.data.title;
-const images = about.data.images;
 ---
 
-<BaseLayout pageTitle={pageTitle}>
-  <ColumnLayout images={images} pageTitle={pageTitle}>
+<BaseLayout pageTitle={about.data.title}>
+  <ColumnLayout pageData={about}>
     <Content />
   </ColumnLayout>
 </BaseLayout>

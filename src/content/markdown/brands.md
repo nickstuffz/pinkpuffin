@@ -3,11 +3,23 @@ title: "Bike Brands"
 order: 2
 images:
   [
-    { image: "../../assets/sageLogo.webp", alt: "Sage logo" },
+    {
+      image: "../../assets/sageLogo.webp",
+      alt: "Sage logo",
+      link: "https://sagetitanium.com/",
+    },
     { image: "../../assets/sageBike.webp", alt: "Sage bicycle" },
-    { image: "../../assets/fiftyOneLogo.webp", alt: "FiftyOne logo" },
+    {
+      image: "../../assets/fiftyOneLogo.webp",
+      alt: "FiftyOne logo",
+      link: "https://fiftyonebikes.com/",
+    },
     { image: "../../assets/fiftyOneBike.webp", alt: "FiftyOne bicycle" },
-    { image: "../../assets/colnagoLogo.webp", alt: "Colnago logo" },
+    {
+      image: "../../assets/colnagoLogo.webp",
+      alt: "Colnago logo",
+      link: "https://www.colnago.com/en-us",
+    },
     { image: "../../assets/colnagoFrame.webp", alt: Colnago frame },
   ]
 ---

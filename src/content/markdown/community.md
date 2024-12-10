@@ -3,8 +3,16 @@ title: "Community"
 order: 6
 images:
   [
-    { image: "../../assets/dolceVitaLogo.svg", alt: "Dolce Vita logo" },
-    { image: ../../assets/superSprinklesLogo.svg, alt: "Super Sprinkles logo" },
+    {
+      image: "../../assets/dolceVitaLogo.svg",
+      alt: "Dolce Vita logo",
+      link: "https://www.dolcevitacycling.org/",
+    },
+    {
+      image: ../../assets/superSprinklesLogo.svg,
+      alt: "Super Sprinkles logo",
+      link: "https://supersprinkles.racing/",
+    },
   ]
 ---
 

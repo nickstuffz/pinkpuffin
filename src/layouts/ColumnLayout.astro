@@ -1,12 +1,13 @@
 ---
 import Prose from "../components/Prose.astro";
 import { Image } from "astro:assets";
-const { images, pageTitle } = Astro.props;
+const { pageData } = Astro.props;
 const tw = (strings, ...values) => String.raw({ raw: strings }, ...values);
 
 let imageColumnClasses = tw`flex flex-col items-center gap-2 bg-black p-4 md:p-3 lg:gap-4 lg:p-6 xl:p-8 2xl:p-12`;
 
-if (pageTitle === "Bike Brands" || pageTitle === "Demo") {
+// two column layout trigger
+if (pageData.data.title === "Bike Brands" || pageData.data.title === "Demo") {
   imageColumnClasses = tw`flex flex-col items-center gap-2 bg-black p-4 md:p-3 lg:gap-4 lg:p-6 xl:p-8 2xl:grid 2xl:grid-flow-dense 2xl:grid-cols-2 2xl:place-items-center 2xl:p-12`;
 }
 ---
@@ -23,13 +24,31 @@ if (pageTitle === "Bike Brands" || pageTitle === "Demo") {
     </section>
     <section class={imageColumnClasses}>
       {
-        images.map((element) => (
-          <Image
-            src={element.image}
-            alt={element.alt}
-            class="w-full max-w-96 xl:max-w-[69%] 2xl:max-w-[470px]"
-          />
-        ))
+        // page imges with / without links
+        pageData.data.images.map((element) => {
+          if (element.link) {
+            return (
+              <>
+                <Image
+                  src={element.image}
+                  alt={element.alt}
+                  class="w-full max-w-96 xl:max-w-[69%] 2xl:max-w-[470px]"
+                />
+                <a href={element.link} target="_blank" class="bg-red-500">
+                  {element.link}
+                </a>
+              </>
+            );
+          } else {
+            return (
+              <Image
+                src={element.image}
+                alt={element.alt}
+                class="w-full max-w-96 xl:max-w-[69%] 2xl:max-w-[470px]"
+              />
+            );
+          }
+        })
       }
     </section>
   </div>

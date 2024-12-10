@@ -5,13 +5,10 @@ import { getEntry } from "astro:content";
 
 const community = await getEntry("markdown", "community");
 const { Content } = await community.render();
-
-const pageTitle = community.data.title;
-const images = community.data.images;
 ---
 
-<BaseLayout pageTitle={pageTitle}>
-  <ColumnLayout images={images} pageTitle={pageTitle}>
+<BaseLayout pageTitle={community.data.title}>
+  <ColumnLayout pageData={community}>
     <Content />
   </ColumnLayout>
 </BaseLayout>
