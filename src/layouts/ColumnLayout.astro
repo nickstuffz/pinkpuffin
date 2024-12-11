@@ -28,12 +28,12 @@ if (pageData.data.title === "Bike Brands" || pageData.data.title === "Demo") {
         pageData.data.images.map((element) => {
           if (element.link) {
             return (
-              <div class="relative w-full max-w-96 xl:max-w-[69%] 2xl:max-w-[470px]">
+              <div class="group relative w-full max-w-96 transition xl:max-w-[69%] 2xl:max-w-[470px]">
                 <Image src={element.image} alt={element.alt} />
                 <a
                   href={element.link}
                   target="_blank"
-                  class="absolute right-0 top-0 rounded-bl-md bg-[#EC6FA7] px-4 py-1 font-mono"
+                  class="absolute right-0 top-0 rounded-bl-md bg-[#EC6FA7] px-5 py-1 font-mono group-hover:-translate-x-1 group-hover:scale-110"
                 >
                   visit =&gt;
                 </a>
