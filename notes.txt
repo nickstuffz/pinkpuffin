@@ -1,6 +1,4 @@
 In Progress:
-x Create onClick for home page, hide modal
-x Set image links
 
 Todo:
 - Add type safety
@@ -9,7 +7,6 @@ Todo:
 - Demo content
 - Colnago blurb
 - Community content
-- Spell-check content
 
 Reach Todo:
 - Better solution for Modal responsiveness?

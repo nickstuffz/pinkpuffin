@@ -16,6 +16,14 @@ images:
 
 # Demo Bikes
 
-Stop by the shop to inquire about our demo bikes!
+Stop by the shop to inquire about our demo bikes! Get a feel for exquisite quality Ti.
 
-more coming soon...
+**Sage Storm King** (56cm)  
+SRAM RED AXS  
+Chris King GRD23 R45D
+
+**Custom Engima Ti** (51cm)  
+Campagnolo Ekar  
+White Industries x Astral Rims
+
+around $250/day
