@@ -36,4 +36,6 @@ FiftyOne, based in Dublin, Ireland, has changed the world of custom carbon bicyc
 
 # Colnago
 
-You know Colnago. Text coming soon...
+You know Colnago.
+
+more coming soon...
