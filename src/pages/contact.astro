@@ -1,9 +1,11 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import Banner from "../components/Banner.astro";
 const pageTitle = "Contact";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
+  <Banner />
   <div class="flex w-full grow flex-col">
     <div class="h-4 flex-none bg-gradient-to-r from-black to-[#F8D1D1]"></div>
     <div class="grid grow grid-cols-1 sm:grid-cols-2">
