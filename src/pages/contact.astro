@@ -1,13 +1,13 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Banner from "../components/Banner.astro";
+import StyleBarsLayout from "../layouts/StyleBarsLayout.astro";
 const pageTitle = "Contact";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
   <Banner />
-  <div class="flex w-full grow flex-col">
-    <div class="h-4 flex-none bg-gradient-to-r from-black to-[#F8D1D1]"></div>
+  <StyleBarsLayout>
     <div class="grid grow grid-cols-1 sm:grid-cols-2">
       <section
         class="flex flex-col items-center bg-[#F8D1D1] p-4 md:p-6 lg:p-8 xl:p-10 2xl:p-12"
@@ -84,6 +84,5 @@ const pageTitle = "Contact";
         </iframe>
       </section>
     </div>
-    <div class="h-4 flex-none bg-gradient-to-r from-black to-[#F8D1D1]"></div>
-  </div>
+  </StyleBarsLayout>
 </BaseLayout>

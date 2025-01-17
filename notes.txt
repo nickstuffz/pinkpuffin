@@ -2,7 +2,6 @@ In Progress:
 
 Todo:
 - Add type safety
-- Refactor to another layout file (to include Contact in Columns Layout)
 - Maybe disable Image processing, it's making images larger, use public?
 - Demo content
 - Colnago blurb
@@ -10,5 +9,4 @@ Todo:
 
 Reach Todo:
 - Better solution for Modal responsiveness?
-- Better solution for onClick vs css hover on modal?
 - Add notes to explain code

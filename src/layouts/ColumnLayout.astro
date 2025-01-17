@@ -1,4 +1,5 @@
 ---
+import StyleBarsLayout from "../layouts/StyleBarsLayout.astro";
 import Prose from "../components/Prose.astro";
 import { Image } from "astro:assets";
 const { pageData } = Astro.props;
@@ -11,8 +12,7 @@ if (pageData.data.title === "Bike Brands" || pageData.data.title === "Demo") {
 }
 ---
 
-<div class="flex w-full grow flex-col">
-  <div class="h-4 flex-none bg-gradient-to-r from-black to-[#F8D1D1]"></div>
+<StyleBarsLayout>
   <div class="grid grow grid-cols-1 sm:grid-cols-2">
     <section
       class="flex flex-col items-center bg-[#F8D1D1] p-2 md:p-3 lg:p-8 xl:p-8 2xl:p-12"
@@ -23,7 +23,7 @@ if (pageData.data.title === "Bike Brands" || pageData.data.title === "Demo") {
     </section>
     <section class={imageColumnClasses}>
       {
-        // page imges with / without links
+        // page images with / without links
         pageData.data.images.map((element) => {
           if (element.link) {
             return (
@@ -49,5 +49,4 @@ if (pageData.data.title === "Bike Brands" || pageData.data.title === "Demo") {
       }
     </section>
   </div>
-  <div class="h-4 flex-none bg-gradient-to-r from-black to-[#F8D1D1]"></div>
-</div>
+</StyleBarsLayout>
