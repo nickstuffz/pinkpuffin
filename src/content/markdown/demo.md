@@ -25,5 +25,3 @@ Chris King GRD23 R45D
 **Custom Engima Ti** (51cm)  
 Campagnolo Ekar  
 White Industries x Astral Rims
-
-around $250/day
