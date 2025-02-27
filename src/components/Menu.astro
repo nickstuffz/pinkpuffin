@@ -5,6 +5,7 @@ import socialInsta from "../assets/socialInsta.svg";
 import { getCollection } from "astro:content";
 
 const markdowns = await getCollection("markdown");
+console.log(markdowns);
 const { pageTitle } = Astro.props;
 ---
 
@@ -12,10 +13,9 @@ const { pageTitle } = Astro.props;
   id="menu-container"
   class="delay-50 flex grow opacity-0 transition-opacity md:h-auto md:w-full md:opacity-100"
 >
-  <p>{markdowns}</p>
   <nav
     id="menu"
-    class="hidden w-52 flex-col items-end divide-y divide-solid divide-black/30 rounded-bl-2xl bg-black/90 pb-5 text-xl font-extralight tracking-widest text-white md:flex md:w-full md:flex-row md:text-nowrap md:rounded-none md:pb-0 md:text-xs lg:text-sm 2xl:text-base"
+    class="hidden w-52 flex-col items-end divide-y divide-solid divide-white/10 rounded-bl-2xl bg-black/90 pb-5 text-xl font-extralight tracking-widest text-white md:flex md:w-full md:flex-row md:divide-none md:text-nowrap md:rounded-none md:pb-0 md:text-xs lg:text-sm 2xl:text-base"
   >
     <!-- Menu Links -->
     {
