@@ -27,7 +27,15 @@ if (pageData.data.title === "Bike Brands" || pageData.data.title === "Demo") {
           if (element.link) {
             return (
               <div class="group relative w-full max-w-96 xl:max-w-[69%] 2xl:max-w-[470px]">
-                <img src={element.image} alt={element.alt} />
+                <img
+                  src={element.image}
+                  alt={element.alt}
+                  class={
+                    pageData.data.title === "Demo"
+                      ? "aspect-[16/9] object-cover"
+                      : ""
+                  }
+                />
                 <a
                   href={element.link}
                   target="_blank"
@@ -40,7 +48,15 @@ if (pageData.data.title === "Bike Brands" || pageData.data.title === "Demo") {
           } else {
             return (
               <div class="w-full max-w-96 xl:max-w-[69%] 2xl:max-w-[470px]">
-                <img src={element.image} alt={element.alt} />
+                <img
+                  src={element.image}
+                  alt={element.alt}
+                  class={
+                    pageData.data.title === "Demo"
+                      ? "aspect-[16/9] object-cover"
+                      : ""
+                  }
+                />
               </div>
             );
           }

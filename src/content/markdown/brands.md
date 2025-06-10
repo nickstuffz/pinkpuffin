@@ -20,7 +20,7 @@ images:
       alt: "Colnago logo",
       link: "https://www.colnago.com/en-us",
     },
-    { image: "/images/colnagoComplete3.webp", alt: Colnago bicycle },
+    { image: "/images/colnagoComplete5.webp", alt: Colnago bicycle },
   ]
 ---
 
