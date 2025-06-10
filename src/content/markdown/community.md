@@ -4,12 +4,12 @@ order: 6
 images:
   [
     {
-      image: "../../assets/dolceVitaLogo.svg",
+      image: "/images/dolceVitaLogo.svg",
       alt: "Dolce Vita logo",
       link: "https://www.dolcevitacycling.org/",
     },
     {
-      image: ../../assets/superSprinklesLogo.svg,
+      image: "/images/superSprinklesLogo.svg",
       alt: "Super Sprinkles logo",
       link: "https://supersprinkles.racing/",
     },

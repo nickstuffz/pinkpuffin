@@ -3,8 +3,8 @@ title: "About"
 order: 8
 images:
   [
-    { image: "../../assets/philPAS.webp", alt: "Phil at Pas Normal Studios" },
-    { image: "../../assets/philFam.webp", alt: "the Phil family" },
+    { image: "/images/philPAS.webp", alt: "Phil at Pas Normal Studios" },
+    { image: "/images/philFam.webp", alt: "the Phil family" },
   ]
 ---
 

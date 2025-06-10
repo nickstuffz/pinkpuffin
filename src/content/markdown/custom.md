@@ -2,7 +2,7 @@
 title: "Custom"
 order: 1
 images:
-  [{ image: "../../assets/bikeMeasure.webp", alt: "bicycle with measurements" }]
+  [{ image: "/images/bikeMeasure.webp", alt: "bicycle with measurements" }]
 ---
 
 # Custom Bikes

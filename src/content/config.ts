@@ -8,7 +8,7 @@ const markdownCollection = defineCollection({
       images: z
         .array(
           z.object({
-            image: image(),
+            image: z.string(),
             alt: z.string(),
             link: z.string().optional(),
           }),

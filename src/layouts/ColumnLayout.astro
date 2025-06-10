@@ -1,7 +1,6 @@
 ---
 import StyleBarsLayout from "../layouts/StyleBarsLayout.astro";
 import Prose from "../components/Prose.astro";
-import { Image } from "astro:assets";
 const { pageData } = Astro.props;
 const tw = (strings, ...values) => String.raw({ raw: strings }, ...values);
 
@@ -28,7 +27,7 @@ if (pageData.data.title === "Bike Brands" || pageData.data.title === "Demo") {
           if (element.link) {
             return (
               <div class="group relative w-full max-w-96 xl:max-w-[69%] 2xl:max-w-[470px]">
-                <Image src={element.image} alt={element.alt} />
+                <img src={element.image} alt={element.alt} />
                 <a
                   href={element.link}
                   target="_blank"
@@ -41,7 +40,7 @@ if (pageData.data.title === "Bike Brands" || pageData.data.title === "Demo") {
           } else {
             return (
               <div class="w-full max-w-96 xl:max-w-[69%] 2xl:max-w-[470px]">
-                <Image src={element.image} alt={element.alt} />
+                <img src={element.image} alt={element.alt} />
               </div>
             );
           }

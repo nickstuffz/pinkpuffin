@@ -4,11 +4,11 @@ order: 3
 images:
   [
     {
-      image: "../../assets/paragonFitStudioLogo.webp",
+      image: "/images/paragonFitStudioLogo.webp",
       alt: "Paragon Fit Studio logo",
       link: "https://www.paragonfitstudio.com/",
     },
-    { image: "../../assets/vitruvianMan.webp", alt: "vitruvian man" },
+    { image: "/images/vitruvianMan.webp", alt: "vitruvian man" },
   ]
 ---
 

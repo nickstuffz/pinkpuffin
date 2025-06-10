@@ -4,23 +4,23 @@ order: 2
 images:
   [
     {
-      image: "../../assets/sageLogo.webp",
+      image: "/images/sageLogo.webp",
       alt: "Sage logo",
       link: "https://sagetitanium.com/",
     },
-    { image: "../../assets/sageBike.webp", alt: "Sage bicycle" },
+    { image: "/images/sageBike.webp", alt: "Sage bicycle" },
     {
-      image: "../../assets/fiftyOneLogo.webp",
+      image: "/images/fiftyOneLogo.webp",
       alt: "FiftyOne logo",
       link: "https://fiftyonebikes.com/",
     },
-    { image: "../../assets/fiftyOneBike.webp", alt: "FiftyOne bicycle" },
+    { image: "/images/fiftyOneBike.webp", alt: "FiftyOne bicycle" },
     {
-      image: "../../assets/colnagoLogo.webp",
+      image: "/images/colnagoLogo.webp",
       alt: "Colnago logo",
       link: "https://www.colnago.com/en-us",
     },
-    { image: "../../assets/colnagoFrame.webp", alt: Colnago frame },
+    { image: "/images/colnagoComplete3.webp", alt: Colnago bicycle },
   ]
 ---
 

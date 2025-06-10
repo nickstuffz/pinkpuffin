@@ -4,11 +4,11 @@ order: 4
 images:
   [
     {
-      image: "../../assets/earlyRiderLogo.webp",
+      image: "/images/earlyRiderLogo.webp",
       alt: "EarlyRider logo",
       link: "https://us.earlyrider.com/",
     },
-    { image: "../../assets/earlyRiderBikes.webp", alt: "EarlyRider bicycles" },
+    { image: "/images/earlyRiderBikes.webp", alt: "EarlyRider bicycles" },
   ]
 ---
 
