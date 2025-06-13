@@ -1,8 +1,8 @@
 ---
 import { Image } from "astro:assets";
 import logoIcon from "../assets/logoIcon.svg";
-import ppText from "../assets/ppText.svg";
-import bicyclesText from "../assets/bicyclesText.svg";
+import logoFullTextCol from "../assets/logoFullTextCol.svg";
+import logoFullTextRow from "../assets/logoFullTextRow.svg";
 import Menu from "../components/Menu.astro";
 import Hamburger from "../components/Hamburger.astro";
 
@@ -24,20 +24,18 @@ const { pageTitle } = Astro.props;
       alt="Pink Puffin icon"
       class="ml-2.5 h-14 w-14 transition-transform hover:rotate-45"
     />
-    <div
-      class="flex w-32 flex-none flex-col justify-center gap-3 sm:w-80 sm:flex-row sm:justify-end sm:gap-4"
-    >
+    <div class="flex w-32 pt-1.5 sm:w-80">
       <Image
-        src={ppText}
-        alt="Pink Puffin text"
+        src={logoFullTextCol}
+        alt="Pink Puffin text col"
         loading="eager"
-        class="w-5/6 min-w-0 sm:w-1/2 sm:flex-1"
+        class="sm:hidden"
       />
       <Image
-        src={bicyclesText}
-        alt="bicycles text"
+        src={logoFullTextRow}
+        alt="Pink Puffin text row"
         loading="eager"
-        class="w-full min-w-0 pl-px sm:w-1/2 sm:flex-1 sm:pl-0 sm:pt-1"
+        class="hidden sm:block"
       />
     </div>
   </a>

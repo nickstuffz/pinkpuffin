@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="53.308086mm"
+   height="7.7666311mm"
+   viewBox="0 0 53.308087 7.7666313"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <rect
+       x="-122.37578"
+       y="-61.187893"
+       width="710.89203"
+       height="192.46373"
+       id="rect2" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-39.517973,-79.543116)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:0;font-family:Baskerville;-inkscape-font-specification:Baskerville;text-align:start;letter-spacing:0.370417px;word-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ec6fa7;fill-opacity:1;stroke-width:2;stroke-dasharray:none"
+       x="39.148659"
+       y="87.127846"
+       id="text1"><tspan
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:11.2889px;line-height:0;font-family:Baskerville;-inkscape-font-specification:Baskerville;letter-spacing:0.370417px;word-spacing:0px;fill:#ec6fa7;fill-opacity:1;stroke-width:2;stroke-dasharray:none"
+         x="39.148659"
+         y="87.127846"
+         dx="0"
+         rotate="0 0 0 0 0 0 0 0 0 0 0 0">Pink Puffin</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,62.18299,104.56294)"
+       id="text2"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.6667px;font-family:Baskerville;-inkscape-font-specification:Baskerville;text-align:start;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2);fill:#ec6fa7;fill-opacity:1" />
+  </g>
+</svg>
