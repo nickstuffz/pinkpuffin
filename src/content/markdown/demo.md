@@ -16,14 +16,18 @@ images:
 
 # Demo Bikes
 
-Stop by the shop to inquire about our demo bikes! Take them out for a test ride, or for a whole trip. Get a feel for exquisite quality Ti.
+Stop by the shop to inquire about our demo bikes! Take them out for a test ride, or for a whole trip. Get a feel for fine tuned carbon or exquisite quality Ti.
 
 Demo rate at $100 / day.
 
 **Sage Storm King** (56cm)  
 SRAM RED AXS  
-Chris King GRD23 R45D
+Chris King GRD23 x R45D
+
+**FiftyOne Sika** (Large)
+Campagnolo Super Record 13
+Princeton Peak 4550 x Tactic hubs
 
 **Custom Engima Ti** (51cm)  
 Campagnolo Ekar  
-White Industries x Astral Rims
+Astral rims x White Industries hubs
