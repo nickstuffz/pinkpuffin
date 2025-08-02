@@ -2,10 +2,7 @@ In Progress:
 
 Todo:
 - Add type safety
-- Maybe disable Image processing, it's making images larger, use public?
-- Demo content
-- Colnago blurb
-- Community content
+- Add onclick to show more, (reduce data load) on Demo Bikes page
 
 Reach Todo:
 - Better solution for Modal responsiveness?

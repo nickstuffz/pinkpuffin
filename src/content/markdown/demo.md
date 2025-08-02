@@ -7,6 +7,10 @@ images:
     { image: "/images/sageDemo2.webp", alt: "Sage bicycle back" },
     { image: "/images/sageDemo3.webp", alt: "Sage bicycle front" },
     { image: "/images/sageDemo4.webp", alt: "Sage bicycle detail" },
+    { image: "/images/sikaDemo1.webp", alt: "Sika bicycle" },
+    { image: "/images/sikaDemo2.webp", alt: "Sika bicycle back" },
+    { image: "/images/sikaDemo3.webp", alt: "Sika bicycle front" },
+    { image: "/images/sikaDemo4.webp", alt: "Sika bicycle detail" },
     { image: "/images/shopDemo1.webp", alt: "shop bicycle" },
     { image: "/images/shopDemo2.webp", alt: "shop bicycle back" },
     { image: "/images/shopDemo3.webp", alt: "shop bicycle front" },
@@ -24,8 +28,8 @@ Demo rate at $100 / day.
 SRAM RED AXS  
 Chris King GRD23 x R45D
 
-**FiftyOne Sika** (Large)
-Campagnolo Super Record 13
+**FiftyOne Sika** (Large)  
+Campagnolo Super Record 13  
 Princeton Peak 4550 x Tactic hubs
 
 **Custom Engima Ti** (51cm)  
