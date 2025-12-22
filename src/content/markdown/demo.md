@@ -1,5 +1,5 @@
 ---
-title: "Demo"
+title: "Demo/Rent"
 order: 7
 images:
   [
@@ -22,16 +22,30 @@ images:
 
 Stop by the shop to inquire about our demo bikes! Take them out for a test ride, or for a whole trip. Get a feel for fine tuned carbon or exquisite quality Ti.
 
-Demo rate at $100 / day.
+<u>Demo rate:</u>  
+$200 per day<br/>
+$100 per half day
 
-**Sage Storm King** (56cm)  
-SRAM RED AXS  
+**Sage Storm King**<br/>
+56cm, (stack 600 reach 410)<br/>
+SRAM RED AXS<br/>
 Chris King GRD23 x R45D
 
-**FiftyOne Sika** (Large)  
-Campagnolo Super Record 13  
-Princeton Peak 4550 x Tactic hubs
+**Enigma Esker Custom**<br/>
+custom, (stack 593 reach 368)<br/>
+Campagnolo Ekar<br/>
+Astral x White Industries
 
-**Custom Engima Ti** (51cm)  
-Campagnolo Ekar  
-Astral rims x White Industries hubs
+**Pinehurst Gravel**<br/>
+Small, (stack 525 reach 375)<br/>
+Sram Rival XPLR AXS<br/>
+Ritchey Zeta Disc
+
+**FiftyOne Sika**<br/>
+Large, (stack 578 reach 390)<br/>
+_SOLD, re-build in progress_
+
+**FiftyOne Assassin**<br/>
+Small, (stack 540 reach 375)<br/>
+Shimano GRX RX820<br/>
+HED x Chris King
