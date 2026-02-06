@@ -37,11 +37,11 @@ SRAM FORCE AXS E1<br/>
 Reserve x Chris King
 
 **Enigma Esker Custom**<br/>
-custom, (stack 593 reach 368)<br/>
+custom 52cm-ish, (stack 593 reach 368)<br/>
 Campagnolo Ekar<br/>
 Astral x White Industries
 
 **Pinehurst Gravel**<br/>
 Small, (stack 525 reach 375)<br/>
-Sram RIVAL XPLR AXS<br/>
+SRAM RIVAL XPLR AXS<br/>
 Ritchey Zeta Disc
