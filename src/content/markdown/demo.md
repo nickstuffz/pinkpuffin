@@ -3,6 +3,7 @@ title: "Demo/Rent"
 order: 7
 images:
   [
+    { image: "/images/colnagoY1RS.webp", alt: "Y1RS front" },
     { image: "/images/sageStormKing.webp", alt: "Storm King front" },
     { image: "/images/fiftyoneAssassin.webp", alt: "Assassin front" },
     { image: "/images/fiftyoneSika.webp", alt: "Sika front" },
@@ -15,11 +16,19 @@ images:
 
 Stop by the shop to inquire about our demo bikes! Take them out for a test ride, or for a whole trip. Get a feel for fine tuned carbon or exquisite quality Ti.
 
-<u>Demo rate:</u>  
+<u>Demo rate:</u>
+
 $200 per day<br/>
 $100 per half day
 
-Rent-To-Own available
+<u>Rent-To-Own available</u>
+
+apply rental cost to a purchase
+
+**Colnago Y1RS**<br/>
+Medium, (stack 540, reach 386)
+SRAM RED AXS E1
+Vision SC 45 SL i23
 
 **Sage Storm King**<br/>
 56cm, (stack 600 reach 410)<br/>
