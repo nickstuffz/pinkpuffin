@@ -25,9 +25,9 @@ $100 per half day
 
 apply rental cost to a purchase
 
-**Colnago Y1RS**<br/>
-Medium, (stack 540, reach 386)
-SRAM RED AXS E1
+**Colnago Y1Rs**<br/>
+Medium, (stack 540, reach 386)<br/>
+SRAM RED AXS E1<br/>
 Vision SC 45 SL i23
 
 **Sage Storm King**<br/>
