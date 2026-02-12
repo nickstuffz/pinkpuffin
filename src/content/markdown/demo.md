@@ -46,7 +46,7 @@ SRAM FORCE AXS E1<br/>
 Reserve x Chris King
 
 **Enigma Esker Custom**<br/>
-custom 52cm-ish, (stack 593 reach 368)<br/>
+custom, (stack 593 reach 368)<br/>
 Campagnolo Ekar<br/>
 Astral x White Industries
 
