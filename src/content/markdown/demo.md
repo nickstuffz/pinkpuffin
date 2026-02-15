@@ -18,9 +18,9 @@ Stop by the shop to inquire about our demo bikes! Take them out for a test ride,
 
 <u>Demo rate:</u>
 
-$500 per week
+$500 per week<br/>
 $200 per day<br/>
-$100 per half day<br/>
+$100 per half day
 
 <u>Rent-To-Own available</u>
 
