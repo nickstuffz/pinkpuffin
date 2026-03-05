@@ -4,31 +4,35 @@ order: 2
 images:
   [
     {
-      image: "/images/sageLogo.webp",
+      image: "/images/brandLogoSage.webp",
       alt: "Sage logo",
-      link: "https://sagetitanium.com/",
+      link: "https://sagetitanium.com",
     },
-    { image: "/images/sageBike.webp", alt: "Sage bicycle" },
+    { image: "/images/brandPicSage.webp", alt: "Sage bicycles" },
     {
-      image: "/images/fiftyOneLogo.webp",
+      image: "/images/brandLogoFiftyOne.webp",
       alt: "FiftyOne logo",
-      link: "https://fiftyonebikes.com/",
+      link: "https://fiftyonebikes.com",
     },
-    { image: "/images/fiftyOneBike.webp", alt: "FiftyOne bicycle" },
+    { image: "/images/brandPicFiftyOne.webp", alt: "FiftyOne bicycles" },
     {
-      image: "/images/colnagoLogo.webp",
+      image: "/images/brandLogoColnago.webp",
       alt: "Colnago logo",
       link: "https://www.colnago.com/en-us",
     },
-    { image: "/images/colnagoComplete5.webp", alt: Colnago bicycle },
+    { image: "/images/brandPicColnago.webp", alt: Colnago bicycles },
+    {
+      image: "/images/brandLogoParlee.webp",
+      alt: "Parlee logo",
+      link: "https://www.parleecycles.com",
+    },
+    { image: "/images/brandPicParlee.webp", alt: Parlee bicycles },
   ]
 ---
 
 # Sage Titanium
 
-Pink Puffin welcomes Sage Titanium Bicycles! Sage produces the highest quality handmade titanium frames and parts, all in Beaverton, Oregon. Specializing in custom, race stiff frames to cover all disciplines and types of riding has won Sage multiple awards. It's not just the performance, whether it’s raw or Cerakote; Sage puts out a stunning finish on their frames to ice the cake on already beautiful welds.
-
-Stop into Pink Puffin Bicycles to inquire more about making one of these beautiful titanium bikes a favorite in your stable!
+Sage produces the highest quality handmade titanium frames and parts, all in Beaverton, Oregon. Specializing in custom, race stiff frames to cover all disciplines and types of riding has won Sage multiple awards. It's not just the performance, whether it’s raw or Cerakote; Sage puts out a stunning finish on their frames to ice the cake on already beautiful welds.
 
 # FiftyOne Bicycles
 
@@ -40,4 +44,4 @@ You know Colnago. Legendary bikes for over 70 years. From the Monumental Classic
 
 # Parlee
 
-Coming soon...
+Coming shortly...
