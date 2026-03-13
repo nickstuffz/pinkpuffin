@@ -3,7 +3,7 @@ title: "Demo/Rent"
 order: 7
 images:
   [
-    { image: "/images/colnagoY1RS.webp", alt: "Y1RS front" },
+    { image: "/images/colnagoV5RS.webp", alt: "V5RS front" },
     { image: "/images/sageStormKing.webp", alt: "Storm King front" },
     { image: "/images/fiftyoneAssassin.webp", alt: "Assassin front" },
     { image: "/images/fiftyoneSika.webp", alt: "Sika front" },
@@ -26,10 +26,10 @@ $100 per half day
 
 apply rental cost to a purchase
 
-**Colnago Y1Rs**<br/>
-Medium, (stack 540, reach 386)<br/>
-SRAM RED AXS E1<br/>
-Vision SC 45 SL i23
+**Colnago V5Rs**<br/>
+485, (stack 539, reach 384)<br/>
+Campagnolo Super Record 13<br/>
+Princeton Peak 4550 Evolution
 
 **Sage Storm King**<br/>
 56cm, (stack 600 reach 410)<br/>
