@@ -36,12 +36,12 @@ Sage produces the highest quality handmade titanium frames and parts, all in Bea
 
 # FiftyOne
 
-FiftyOne is based in Dublin, Ireland. They've changed the world of custom carbon bicycles to the point that most everyone is struggling to catch up. They have incorporated an industry-revolutionizing joint welding technique with a completely custom buying process. They work with you one-on-one to design a bike to your exact physical geometry and design dreams, resulting in your unique bicycle that will never be copied or remade. If you are looking for one of the best-feeling, best-looking, and overall best companies delivering world class carbon bicycles and customer service, then look no further than FiftyOne Bicycles.
+FiftyOne is based in Dublin, Ireland. They've changed the world of custom carbon bicycles to the point that most everyone is struggling to catch up. They have incorporated an industry-revolutionizing joint welding technique with a completely custom buying process. They work with you one-on-one to design a bike to your exact physical geometry and design dreams, resulting in your unique bicycle that will never be copied or remade.
 
 # Colnago
 
-You know Colnago. Legendary Italian bikes for over 70 years. From the Monumental Classics to the Grand Tours, Colnago bikes continue to win. Come learn more at Pink Puffin, your Colnago dealer in the San Francisco area.
+Legendary Italian bikes for over 70 years. From the Monumental Classics to the Grand Tours, Colnago bikes continue to win.
 
 # Parlee
 
-Coming shortly...
+Parlee creates handmade, meticulously engineered, exceptional carbon bicycles. They have over 25 years of experience perfecting their craft. Always small-batch, made in the USA (and Portugal).
