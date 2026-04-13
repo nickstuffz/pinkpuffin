@@ -7,3 +7,7 @@ Todo:
 Reach Todo:
 - Better solution for Modal responsiveness?
 - Add notes to explain code
+
+Tools:
+cwebp:
+    cwebp input.jpg -o output.webp -size 300000

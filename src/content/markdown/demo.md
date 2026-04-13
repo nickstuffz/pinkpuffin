@@ -1,6 +1,6 @@
 ---
 title: "Demo/Rent"
-order: 7
+order: 2
 images:
   [
     { image: "/images/colnagoV5RS.webp", alt: "V5RS front" },

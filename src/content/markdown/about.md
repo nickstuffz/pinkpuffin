@@ -1,10 +1,10 @@
 ---
 title: "About"
-order: 8
+order: 4
 images:
   [
-    { image: "/images/philPAS.webp", alt: "Phil at Pas Normal Studios" },
-    { image: "/images/philFam.webp", alt: "the Phil family" },
+    { image: "/images/aboutHaight.webp", alt: "Phil at new Haight location" },
+    { image: "/images/aboutFam.webp", alt: "the Phil family" },
   ]
 ---
 
@@ -24,8 +24,8 @@ I’ve had a deep love for bicycles since childhood that has bloomed into a life
 
 I’ve been working in the industry since 2006, and in opening Pink Puffin Bicycles, I hope to share the joy that I feel for bicycles with you. Pink Puffin Bicycles is a welcoming space focused on quality gear and mechanical expertise.
 
-When I’m not in the shop, I can often be spotted on my bike puffing through Paradise Loop in Marin, or on a beach stroll with my wife, Amy, and our (incredibly quirky) chihuahua/dachshund mix, Edwin.
+When I’m not in the shop, I can often be spotted on my bike puffing through Paradise Loop in Marin, or on a beach stroll with my wife, Amy, and our (incredibly quirky) chihuahua / dachshund mix, Edwin.
 
-I hope you’ll stop by to say hi and discuss all things bikes, dogs, coffee, or the English Premier League (Go Tottenham!) with me soon.
+I hope you’ll stop by to say hello and discuss all things bikes, dogs, coffee, or the English Premier League (Go Tottenham!) with me soon.
 
 \- Phillip Shain, Owner

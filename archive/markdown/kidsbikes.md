@@ -1,6 +1,6 @@
 ---
-title: "Kids' Bikes"
-order: 4
+title: "Kids Bikes"
+order: 6
 images:
   [
     {

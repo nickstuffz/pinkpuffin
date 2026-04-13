@@ -1,0 +1,14 @@
+<!-- ---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import ColumnLayout from "../layouts/ColumnLayout.astro";
+import { getEntry } from "astro:content";
+
+const fitting = await getEntry("markdown", "fitting");
+const { Content } = await fitting.render();
+---
+
+<BaseLayout pageTitle={fitting.data.title}>
+  <ColumnLayout pageData={fitting}>
+    <Content />
+  </ColumnLayout>
+</BaseLayout> -->

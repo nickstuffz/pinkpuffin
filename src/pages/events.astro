@@ -3,12 +3,12 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import ColumnLayout from "../layouts/ColumnLayout.astro";
 import { getEntry } from "astro:content";
 
-const fitting = await getEntry("markdown", "fitting");
-const { Content } = await fitting.render();
+const events = await getEntry("markdown", "events");
+const { Content } = await events.render();
 ---
 
-<BaseLayout pageTitle={fitting.data.title}>
-  <ColumnLayout pageData={fitting}>
+<BaseLayout pageTitle={events.data.title}>
+  <ColumnLayout pageData={events}>
     <Content />
   </ColumnLayout>
 </BaseLayout>

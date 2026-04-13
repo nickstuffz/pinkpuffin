@@ -1,6 +1,6 @@
 ---
 title: "Community"
-order: 6
+order: 3
 images:
   [
     {
@@ -21,15 +21,13 @@ images:
   ]
 ---
 
-sponsored by Pink Puffin!
-
 # Dolce Vita Cycling
 
-Dolce Vita Cycling is an Elite and Development amateur cycling team based in San Francisco, CA. We develop and mentor cyclists for competition in local and national events while promoting a healthy lifestyle and personal growth through active community involvement.
+Dolce Vita Cycling is an Elite and Development amateur cycling team based in San Francisco, CA. DVC develops and mentors cyclists for competition in local and national events while promoting a healthy lifestyle and personal growth through active community involvement.
 
 # Super Sprinkles Racing
 
-Super Sprinkles Racing exists to make cycling and racing accessible to women, transgender, femme, and other under-represented new riders in the San Francisco Bay Area.
+Super Sprinkles Racing is an inclusive cycling team based in San Francisco, CA. Super Sprinkles exists to make cycling and racing accessible to women, transgender, femme, and other under-represented new riders in the Bay Area.
 
 # Thursdays.cc
 
