@@ -5,10 +5,12 @@ import { Image } from "astro:assets";
 import shopBike from "../assets/shopBike.webp";
 import logoText2 from "../assets/logoText2.svg";
 import bicyclesText2 from "../assets/bicyclesText2.svg";
-const pageTitle = "PinkPuffinBicycles";
+const pageTitle = "Pink Puffin Bicycles Home";
+const pageDescription =
+  "Pink Puffin Bicycles is San Francisco's premier bike shop offering personalized service and sales.";
 ---
 
-<BaseLayout pageTitle={pageTitle}>
+<BaseLayout pageTitle={pageTitle} pageDescription={pageDescription}>
   <Banner />
   <div
     id="hero"

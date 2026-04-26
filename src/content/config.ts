@@ -4,6 +4,7 @@ const markdownCollection = defineCollection({
   schema: ({ image }) =>
     z.object({
       title: z.string(),
+      description: z.string(),
       order: z.number(),
       images: z
         .array(

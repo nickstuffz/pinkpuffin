@@ -7,7 +7,7 @@ const brands = await getEntry("markdown", "brands");
 const { Content } = await brands.render();
 ---
 
-<BaseLayout pageTitle={brands.data.title}>
+<BaseLayout pageTitle={brands.data.title} pageDescription={brands.data.description}>
   <ColumnLayout pageData={brands}>
     <Content />
   </ColumnLayout>

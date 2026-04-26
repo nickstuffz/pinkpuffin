@@ -7,7 +7,10 @@ const community = await getEntry("markdown", "community");
 const { Content } = await community.render();
 ---
 
-<BaseLayout pageTitle={community.data.title}>
+<BaseLayout
+  pageTitle={community.data.title}
+  pageDescription={community.data.description}
+>
   <ColumnLayout pageData={community}>
     <Content />
   </ColumnLayout>

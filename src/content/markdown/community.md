@@ -1,5 +1,6 @@
 ---
 title: "Community"
+description: "Pink Puffin community partners."
 order: 3
 images:
   [
@@ -15,7 +16,7 @@ images:
     },
     {
       image: "/images/thursdaysLogo.svg",
-      alt: "Thurdays dot ccc logo",
+      alt: "Thurdays logo",
       link: "https://www.instagram.com/thursdays.cc/",
     },
   ]

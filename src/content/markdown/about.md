@@ -1,5 +1,6 @@
 ---
 title: "About"
+description: "About Pink Puffin Bicycles."
 order: 4
 images:
   [

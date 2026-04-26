@@ -7,7 +7,7 @@ const demo = await getEntry("markdown", "demo");
 const { Content } = await demo.render();
 ---
 
-<BaseLayout pageTitle={demo.data.title}>
+<BaseLayout pageTitle={demo.data.title} pageDescription={demo.data.description}>
   <ColumnLayout pageData={demo}>
     <Content />
   </ColumnLayout>

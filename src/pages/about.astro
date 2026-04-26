@@ -7,7 +7,7 @@ const about = await getEntry("markdown", "about");
 const { Content } = await about.render();
 ---
 
-<BaseLayout pageTitle={about.data.title}>
+<BaseLayout pageTitle={about.data.title} pageDescription={about.data.description}>
   <ColumnLayout pageData={about}>
     <Content />
   </ColumnLayout>

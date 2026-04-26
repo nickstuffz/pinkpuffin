@@ -1,5 +1,6 @@
 ---
 title: "Demo/Rent"
+description: "Pink Puffin demo bikes information and pricing."
 order: 2
 images:
   [

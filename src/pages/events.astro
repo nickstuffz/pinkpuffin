@@ -7,7 +7,10 @@ const events = await getEntry("markdown", "events");
 const { Content } = await events.render();
 ---
 
-<BaseLayout pageTitle={events.data.title}>
+<BaseLayout
+  pageTitle={events.data.title}
+  pageDescription={events.data.description}
+>
   <ColumnLayout pageData={events}>
     <Content />
   </ColumnLayout>

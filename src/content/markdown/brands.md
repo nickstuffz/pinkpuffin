@@ -1,5 +1,6 @@
 ---
 title: "Bike Brands"
+description: "Bike brands we carry at Pink Puffin Bicycles."
 order: 1
 images:
   [

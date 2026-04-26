@@ -1,5 +1,6 @@
 ---
 title: "Events"
+description: "Upcoming events hosted at Pink Puffin."
 order: 2
 images:
   [

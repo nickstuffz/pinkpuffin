@@ -2,10 +2,14 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Banner from "../components/Banner.astro";
 import StyleBarsLayout from "../layouts/StyleBarsLayout.astro";
-const pageTitle = "Contact";
+import { getEntry } from "astro:content";
+const contact = await getEntry("markdown", "contact");
 ---
 
-<BaseLayout pageTitle={pageTitle}>
+<BaseLayout
+  pageTitle={contact.data.title}
+  pageDescription={contact.data.description}
+>
   <Banner />
   <StyleBarsLayout>
     <div class="grid grow grid-cols-1 sm:grid-cols-2">
@@ -81,7 +85,7 @@ const pageTitle = "Contact";
           allowfullscreen
           referrerpolicy="no-referrer-when-downgrade"
           src=`https://www.google.com/maps/embed/v1/place?key=${import.meta.env.API_KEY}
-        &q=ink+Puffin+Bicycles,San+Francisco,CA&zoom=13`
+        &q=Pink+Puffin+Bicycles,San+Francisco,CA&zoom=13`
           class="aspect-square w-full grow border border-yellow-500 sm:aspect-auto"
         >
         </iframe>
