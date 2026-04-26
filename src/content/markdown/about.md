@@ -8,24 +8,20 @@ images:
   ]
 ---
 
-# Philosophy
+# The <span class="text-[#EC6FA7]">Pink Puffin</span> Experience
 
-I created Pink Puffin Bicycles to get people excited about riding bicycles. Recreation should be about bringing joy to our lives, and riding bikes is fun and joyful.
+Bike shops can feel unwelcoming, which is why we do things a little differently. From our signature soft pink and teal walls to our cozy lounge area, Pink Puffin aims to be a warm, inclusive, and friendly environment where everyone can feel genuinely welcome.
 
-I want to talk with you and understand what you are looking for and why. If that conversation takes five minutes and you are ready to have a great ride, wonderful. If it takes hours over coffee and a beer, then even better. Communication is paramount. My goal is to talk with and listen to you to meet your needs. Let’s share our love for all the beautiful bike things in the world in a warm, friendly environment.
+At Pink Puffin, we get and keep people excited about their bicycles. We do quality work, sell quality gear, and strive to offer you a quality bike shop experience.
 
-# Pink Puffin Experience
+# Phil-osophy
 
-I want to create a space that feels warm, exciting, inclusive, welcoming, and memorable. This is an important part of a good shop experience for me. The smell, colors, and space all manifest my vision of what a great bicycle shop should be. Soft pink and teal walls, the smell of sweetness in the air, the lounge area to cozy up with fresh coffee and chit-chat about bikes all mesh to welcome you to my space. Come and enjoy the feeling with me at Pink Puffin Bicycles.
+I'm Phillip Shain, owner of Pink Puffin Bicycles.
 
-# Past, Present & Future
+I’ve had a deep love for bicycles since my early childhood, which has blossomed into a lifelong passion and rewarding career.
 
-I’ve had a deep love for bicycles since childhood that has bloomed into a lifelong passion that luckily organically blossomed into a rewarding career.
+Since 2006, I've been working in the bicycle industry, absorbing knowledge and eventually realizing what most shops miss. I opened Pink Puffin Bicycles in 2023, with the goal of sharing the joy I feel for bicycles with others through quality service.
 
-I’ve been working in the industry since 2006, and in opening Pink Puffin Bicycles, I hope to share the joy that I feel for bicycles with you. Pink Puffin Bicycles is a welcoming space focused on quality gear and mechanical expertise.
+When I’m not in the shop, I can often be spotted on my bike puffing through Paradise Loop in Marin or on a beach stroll with my wife, Amy, and our quirky chihuahua-dachshund mix, Edwin.
 
-When I’m not in the shop, I can often be spotted on my bike puffing through Paradise Loop in Marin, or on a beach stroll with my wife, Amy, and our (incredibly quirky) chihuahua / dachshund mix, Edwin.
-
-I hope you’ll stop by to say hello and discuss all things bikes, dogs, coffee, or the English Premier League (Go Tottenham!) with me soon.
-
-\- Phillip Shain, Owner
+I hope you’ll stop by and visit the shop. Say hello, and we can chat about all things bikes, dogs, coffee, or English Premier League (_go Tottenham_) together!
