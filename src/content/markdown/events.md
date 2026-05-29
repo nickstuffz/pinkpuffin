@@ -29,7 +29,7 @@ Monthly Pink Puffin x Hummingbird Fuels group ride. Get your punch card! Post-ri
 📍 Pink Puffin Bicycles<br/>
 🔗 <a href="https://www.instagram.com/p/DY5uEGbAN7E/" target="_blank">Insta Link</a>
 
-Pinehurst release party for their new gravel bikes. New bikes and merch on display. Food and drinks provided!
+Pinehurst release party for their new gravel bikes. New bikes and merch on display. Food and drinks provided.
 
 ### Bird Ride
 
@@ -45,4 +45,4 @@ Monthly Pink Puffin x Hummingbird Fuels group ride. Get your punch card! Post-ri
 📍 Pink Puffin Bicycles<br/>
 🔗 _coming soon..._
 
-Vanta Cycling 007. Post-ride drinks and debrief at Pink Puffin.
+Vanta Cycling 007 group ride. Post-ride debrief and refreshment at Pink Puffin.
