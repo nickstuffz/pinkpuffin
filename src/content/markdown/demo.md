@@ -15,7 +15,7 @@ images:
 
 # Demo Bikes
 
-Stop by the shop to inquire about our demo bikes! Take them out for a test ride, or for a whole trip. Get a feel for fine tuned carbon or exquisite quality Ti.
+Stop by the shop to inquire about our demo bikes! Take them out for a test ride, or for a whole trip. Get a feel for fine tuned carbon or exquisite quality titanium.
 
 <u>Demo rate:</u>
 
