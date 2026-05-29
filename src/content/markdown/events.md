@@ -39,10 +39,10 @@ Pinehurst release party for their new gravel bikes. New bikes and merch on displ
 
 Monthly Pink Puffin x Hummingbird Fuels group ride. Get your punch card! Post-ride hangs and refreshment at Pink Puffin.
 
-### VANTA Post-Ride
+### VANTA 007 Ride
 
-🗓️ Saturday, June 13 | 3:00 PM<br/>
+🗓️ Saturday, June 13<br/>
 📍 Pink Puffin Bicycles<br/>
 🔗 _coming soon..._
 
-Vanta Cycling post-ride hang.
+Vanta Cycling 007. Post-ride drinks and debrief at Pink Puffin.
