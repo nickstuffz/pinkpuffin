@@ -43,6 +43,6 @@ Monthly Pink Puffin x Hummingbird Fuels group ride. Get your punch card! Post-ri
 
 🗓️ Saturday, June 13 | 8:00 AM<br/>
 📍 Golden Gate Bridge Welcome Center<br/>
-🔗 _coming soon..._
+🔗 <a href="https://www.strava.com/routes/3495561527353261082/" target="\_blank">Strava Link</a>
 
 Vanta Cycling 007 group ride. Fast road ride, few sections of dirt, some regroups, drop ride. Post-ride debrief and refreshment at Pink Puffin.
