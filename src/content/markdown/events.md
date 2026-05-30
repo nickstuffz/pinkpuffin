@@ -13,7 +13,7 @@ images:
 
 ## <u>May 2026</u>
 
-### Bird Ride
+### The Bird Ride
 
 🗓️ Sat, May 9 | 7:30 AM<br/>
 📍 Golden Gate Bridge Welcome Center<br/>
@@ -31,7 +31,7 @@ Monthly Pink Puffin x Hummingbird Fuels group ride. Get your punch card! Post-ri
 
 Pinehurst release party for their new gravel bikes. New bikes and merch on display. Food and drinks provided.
 
-### Bird Ride
+### The Bird Ride
 
 🗓️ Saturday, June 13 | 7:30 AM<br/>
 📍 Golden Gate Bridge Welcome Center<br/>
@@ -41,8 +41,8 @@ Monthly Pink Puffin x Hummingbird Fuels group ride. Get your punch card! Post-ri
 
 ### VANTA 007 Ride
 
-🗓️ Saturday, June 13<br/>
-📍 Pink Puffin Bicycles<br/>
+🗓️ Saturday, June 13 | 8:00 AM<br/>
+📍 Golden Gate Bridge Welcome Center<br/>
 🔗 _coming soon..._
 
-Vanta Cycling 007 group ride. Post-ride debrief and refreshment at Pink Puffin.
+Vanta Cycling 007 group ride. Fast road ride, few sections of dirt, some regroups, drop ride. Post-ride debrief and refreshment at Pink Puffin.
