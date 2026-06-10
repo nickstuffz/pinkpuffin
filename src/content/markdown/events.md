@@ -11,16 +11,6 @@ images:
 
 # Events Calendar
 
-## <u>May 2026</u>
-
-### The Bird Ride
-
-🗓️ Sat, May 9 | 7:30 AM<br/>
-📍 Golden Gate Bridge Welcome Center<br/>
-🔗 <a href="https://www.strava.com/clubs/1384021/group_events/3486926106888057334/" target="_blank">Strava Link</a>
-
-Monthly Pink Puffin x Hummingbird Fuels group ride. Get your punch card! Post-ride hangs and refreshment at Pink Puffin.
-
 ## <u>June 2026</u>
 
 ### Pinehurst Release Party
@@ -43,6 +33,6 @@ Monthly Pink Puffin x Hummingbird Fuels group ride. Get your punch card! Post-ri
 
 🗓️ Saturday, June 13 | 8:00 AM<br/>
 📍 Golden Gate Bridge Welcome Center<br/>
-🔗 <a href="https://www.strava.com/routes/3495561527353261082/" target="\_blank">Strava Link</a>
+🔗 <a href="https://www.instagram.com/p/DY98hcOm9T2/" target="_blank">Insta Link</a>
 
 Vanta Cycling 007 group ride. Fast road ride, few sections of dirt, some regroups, drop ride. Post-ride debrief and refreshment at Pink Puffin.
