@@ -15,4 +15,8 @@ images:
 
 ### The Bird Ride
 
-<i>August postponed!</i>
+🗓️ Saturday, August 8 | 7:30 AM<br/>
+📍 Golden Gate Bridge Welcome Center<br/>
+🔗 <a href="https://www.strava.com/clubs/1384021/group_events/3515532185443281122/" target="_blank">Strava Link</a>
+
+Monthly Pink Puffin x Hummingbird Fuels group ride. Get your punch card! Post-ride hangs and refreshment at Pink Puffin.
