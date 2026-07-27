@@ -15,8 +15,4 @@ images:
 
 ### The Bird Ride
 
-🗓️ Saturday, August 8 | 7:30 AM<br/>
-📍 Golden Gate Bridge Welcome Center<br/>
-🔗 _coming soon..._
-
-Monthly Pink Puffin x Hummingbird Fuels group ride. Get your punch card! Post-ride hangs and refreshment at Pink Puffin.
+<i>August postponed!</i>
