@@ -4,6 +4,7 @@ description: "Pink Puffin demo bikes information and pricing."
 order: 2
 images:
   [
+    { image: "/images/fiftyoneLuma.webp", alt: "Luma front" },
     { image: "/images/colnagoV5RS.webp", alt: "V5RS front" },
     { image: "/images/sageStormKing.webp", alt: "Storm King front" },
     { image: "/images/fiftyoneAssassin.webp", alt: "Assassin front" },
@@ -26,6 +27,11 @@ $100 per half day
 <u>Rent-To-Own available</u>
 
 apply rental cost to a purchase
+
+**FiftyOne Luma**<br/>
+Large, (stack 582 reach 378)<br/>
+SRAM FORCE XPLR AXS E1<br/>
+MAHLE X20 E-Bike System<br/>
 
 **Colnago V5Rs**<br/>
 485, (stack 539, reach 384)<br/>
