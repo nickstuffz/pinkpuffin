@@ -16,7 +16,7 @@ images:
       alt: "Colnago logo",
       link: "https://www.colnago.com/en-us",
     },
-    { image: "/images/brandPicColnago.webp", alt: Colnago bicycles },
+    { image: "/images/brandPicColnago.webp", alt: "Colnago bicycles" },
         {
       image: "/images/brandLogoSage.webp",
       alt: "Sage logo",
@@ -28,13 +28,13 @@ images:
       alt: "Parlee logo",
       link: "https://www.parleecycles.com",
     },
-    { image: "/images/brandPicParlee.webp", alt: Parlee bicycles },
+    { image: "/images/brandPicParlee.webp", alt: "Parlee bicycles" },
     {
       image: "/images/brandLogoEarlyRider.webp",
       alt: "Early Rider logo",
       link: "https://us.earlyrider.com/",
     },
-    { image: "/images/brandPicEarlyRider.webp", alt: EarlyRider bicycles },
+    { image: "/images/brandPicEarlyRider.webp", alt: "Early Rider bicycles" },
 
 
 

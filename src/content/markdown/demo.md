@@ -5,7 +5,7 @@ order: 2
 images:
   [
     { image: "/images/fiftyoneLuma.webp", alt: "Luma front" },
-    { image: "/images/colnagoV5RS.webp", alt: "V5RS front" },
+    { image: "/images/colnagoV5RS.webp", alt: "V5Rs front" },
     { image: "/images/sageStormKing.webp", alt: "Storm King front" },
     { image: "/images/fiftyoneAssassin.webp", alt: "Assassin front" },
     { image: "/images/fiftyoneSika.webp", alt: "Sika front" },

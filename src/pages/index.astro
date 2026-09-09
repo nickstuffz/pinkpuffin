@@ -1,6 +1,5 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Banner from "../components/Banner.astro";
 import { Image } from "astro:assets";
 import shopBike from "../assets/shopBike.webp";
 import logoText2 from "../assets/logoText2.svg";
@@ -11,7 +10,6 @@ const pageDescription =
 ---
 
 <BaseLayout pageTitle={pageTitle} pageDescription={pageDescription}>
-  <Banner />
   <div
     id="hero"
     class="relative flex max-w-[1280px] grow flex-col items-center justify-center lg:p-6 xl:p-10"

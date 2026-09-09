@@ -1,6 +1,5 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Banner from "../components/Banner.astro";
 import StyleBarsLayout from "../layouts/StyleBarsLayout.astro";
 import { getEntry } from "astro:content";
 const contact = await getEntry("markdown", "contact");
@@ -10,7 +9,6 @@ const contact = await getEntry("markdown", "contact");
   pageTitle={contact.data.title}
   pageDescription={contact.data.description}
 >
-  <Banner />
   <StyleBarsLayout>
     <div class="grid grow grid-cols-1 sm:grid-cols-2">
       <section
@@ -54,7 +52,7 @@ const contact = await getEntry("markdown", "contact");
             class="flex flex-col gap-2 divide-y divide-dashed divide-black/5"
           >
             <div class="flex justify-between">
-              <p>Monday:</p><p class="font-extralight">10:00AM - 4:00PM</p>
+              <p>Monday:</p><p class="font-extralight">closed</p>
             </div>
             <div class="flex justify-between">
               <p>Tuesday:</p><p class="font-extralight">closed</p>
@@ -63,7 +61,7 @@ const contact = await getEntry("markdown", "contact");
               <p>Wednesday:</p><p class="font-extralight">closed</p>
             </div>
             <div class="flex justify-between">
-              <p>Thursday:</p><p class="font-extralight">10:00AM - 4:00PM</p>
+              <p>Thursday:</p><p class="font-extralight">appointment only</p>
             </div>
             <div class="flex justify-between">
               <p>Friday:</p><p class="font-extralight">10:00AM - 4:00PM</p>

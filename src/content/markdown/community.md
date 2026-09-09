@@ -16,7 +16,7 @@ images:
     },
     {
       image: "/images/thursdaysLogo.svg",
-      alt: "Thurdays logo",
+      alt: "Thursdays logo",
       link: "https://www.instagram.com/thursdays.cc/",
     },
   ]

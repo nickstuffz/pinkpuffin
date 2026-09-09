@@ -1,6 +1,7 @@
 ---
 import Header from "../components/Header.astro";
 import Footer from "../components/Footer.astro";
+import Banner from "../components/Banner.astro";
 
 const { pageTitle, pageDescription } = Astro.props;
 ---
@@ -22,6 +23,7 @@ const { pageTitle, pageDescription } = Astro.props;
   </head>
   <body class="m-0 flex h-full min-h-[80svh] w-full flex-col p-0 lg:min-h-svh">
     <Header pageTitle={pageTitle} />
+    <Banner />
     <main class="flex flex-1 flex-col items-center">
       <slot />
     </main>
