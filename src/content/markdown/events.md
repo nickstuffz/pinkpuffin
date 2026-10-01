@@ -13,7 +13,15 @@ images:
 
 ## <u>October 2026</u>
 
-🗓️ Saturday, October 10 | 7:30 AM<br/>
+🗓️ Saturday, October 17 | 7:30 AM<br/>
+📍 Golden Gate Bridge Welcome Center<br/>
+🔗 _coming soon..._
+
+Off-schedule edition! Monthly Pink Puffin x Hummingbird Fuels group ride. Get your punch card! Post-ride hangs and refreshment at Pink Puffin.
+
+## <u>November 2026</u>
+
+🗓️ Saturday, November 7 | 7:30 AM<br/>
 📍 Golden Gate Bridge Welcome Center<br/>
 🔗 _coming soon..._
 
