@@ -4,11 +4,13 @@ description: "Pink Puffin demo bikes information and pricing."
 order: 2
 images:
   [
+    { image: "/images/parleeOuray.webp", alt: "Ouray front" },
+    { image: "/images/fiftyoneSikaSmall.webp", alt: "Sika small front" },
     { image: "/images/fiftyoneLuma.webp", alt: "Luma front" },
     { image: "/images/colnagoV5RS.webp", alt: "V5Rs front" },
     { image: "/images/sageStormKing.webp", alt: "Storm King front" },
     { image: "/images/fiftyoneAssassin.webp", alt: "Assassin front" },
-    { image: "/images/fiftyoneSika.webp", alt: "Sika front" },
+    { image: "/images/fiftyoneSikaLarge.webp", alt: "Sika large front" },
     { image: "/images/enigmaEsker.webp", alt: "Esker front" },
     { image: "/images/pinehurstGravel.webp", alt: "Pinehurst front" },
   ]
@@ -27,6 +29,16 @@ $100 per half day
 <u>Rent-To-Own available</u>
 
 apply rental cost to a purchase
+
+**Parlee Ouray**<br/>
+Large, (stack 606 reach 382)<br/>
+SRAM FORCE AXS D2<br/>
+Zipp 303s
+
+**FiftyOne Sika**<br/>
+Small, (stack 537 reach 370)<br/>
+Campagnolo Super Record 13<br/>
+Bora Ultra WTO 35
 
 **FiftyOne Luma**<br/>
 Large, (stack 582 reach 378)<br/>
