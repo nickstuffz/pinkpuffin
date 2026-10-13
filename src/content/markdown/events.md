@@ -15,7 +15,7 @@ images:
 
 🗓️ Saturday, October 17 | 7:30 AM<br/>
 📍 Golden Gate Bridge Welcome Center<br/>
-🔗 _coming soon..._
+🔗 <a href="https://www.strava.com/clubs/1384021/group_events/3540831557951519188/" target="_blank">Strava Link</a>
 
 Off-schedule edition! Monthly Pink Puffin x Hummingbird Fuels group ride. Get your punch card! Post-ride hangs and refreshment at Pink Puffin.
 
